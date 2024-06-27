@@ -1,0 +1,3300 @@
+ask-my-uncle-sam/
+    integration/
+        summarize_code.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/integration/summarize_code.py
+  Function: summarize_code
+  Function: explore_directory
+    source/
+        model-info/
+        ui-chat/
+            tailwind.config.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/tailwind.config.js
+            public/
+            src/
+                index.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/index.js
+  Function: getRuntimeConfig
+  Function: constructAmplifyConfig
+  Function: getBedrockModelFamily
+  Function: getDefaultPrompt
+                setupTests.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/setupTests.js
+                App.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/App.js
+  Function: App
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                home/
+                types/
+                    prompt.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/types/prompt.ts
+                    chat.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/types/chat.ts
+                    misc.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/types/misc.ts
+                utils/
+                    constants.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/utils/constants.ts
+                    conversation.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/utils/conversation.ts
+  Function: Anonymous Function
+                styles/
+                components/
+                    __tests__/
+                        snapshot_tests/
+                            __snapshots__/
+                hooks/
+                    useCreateReducer.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-chat/src/hooks/useCreateReducer.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+        ui-deployment/
+            public/
+            src/
+                index.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/index.js
+  Function: getRuntimeConfig
+  Function: constructAmplifyConfig
+                setupTests.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/setupTests.js
+                App.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/App.js
+  Function: App
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: ChangePasswordView
+  Function: Anonymous Function
+                contexts/
+                    index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/contexts/index.ts
+                utils/
+                    constants.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/utils/constants.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/utils/index.ts
+                components/
+                    commons/
+                        use-column-widths.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/commons/use-column-widths.js
+  Function: useColumnWidths
+  Function: handleWidthChange
+  Function: Anonymous Function
+                        use-local-storage.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/commons/use-local-storage.ts
+  Function: useLocalStorage
+  Function: handleValueChange
+                        localStorage.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/commons/localStorage.ts
+  Function: Anonymous Function
+                        breadcrumbs.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/commons/breadcrumbs.js
+                        columnDefinitionsHelper.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/commons/columnDefinitionsHelper.js
+  Function: Anonymous Function
+                        index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/commons/index.ts
+                        use-component-id.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/commons/use-component-id.ts
+  Function: useSingleton
+  Function: getSingleton
+  Function: useComponentId
+                        copy-text/
+                    wizard/
+                        utils.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/utils.js
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: to
+  Function: Anonymous Function
+                        VpcConfig/
+                            index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/VpcConfig/index.ts
+                            __tests__/
+                        KnowledgeBase/
+                            index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/KnowledgeBase/index.ts
+                            providers/
+                                index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/KnowledgeBase/providers/index.ts
+                                Kendra/
+                                    index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/KnowledgeBase/providers/Kendra/index.ts
+                                    __tests__/
+                            common/
+                                __tests__/
+                            __tests__/
+                        Review/
+                            index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Review/index.ts
+                            __tests__/
+                        Model/
+                            helpers.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/helpers.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                            index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/index.ts
+                            providers/
+                                index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/providers/index.ts
+                                __tests__/
+                            SagemakerPayloadSchema/
+                                helpers.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/SagemakerPayloadSchema/helpers.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                                index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/SagemakerPayloadSchema/index.ts
+                                __tests__/
+                                    helpers.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/SagemakerPayloadSchema/__tests__/helpers.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                            common/
+                                helpers.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/common/helpers.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                                __tests__/
+                            __tests__/
+                                helpers.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/__tests__/helpers.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                            AdvancedModelSettings/
+                                index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/Model/AdvancedModelSettings/index.ts
+                                __tests__/
+                        UseCase/
+                            index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/UseCase/index.ts
+                            __tests__/
+                        interfaces/
+                            index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/wizard/interfaces/index.ts
+                    dashboard/
+                        hooks.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/dashboard/hooks.js
+  Function: useDeployments
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        deployments.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/dashboard/deployments.js
+  Function: listDeployedUseCases
+  Function: deleteDeployment
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    __tests__/
+                        __mocks__/
+                            deployment-steps-form-data.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/__tests__/__mocks__/deployment-steps-form-data.js
+                        snapshot_tests/
+                            wizard/
+                                utils.test.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/components/__tests__/snapshot_tests/wizard/utils.test.js
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                                stepComponents/
+                                    __snapshots__/
+                                __snapshots__/
+                            dashboard/
+                                __snapshots__/
+                            useCaseDetails/
+                                __snapshots__/
+                        wizard/
+                        dashboard/
+                        useCaseDetails/
+                    useCaseDetails/
+                hooks/
+                    useCreateReducer.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/hooks/useCreateReducer.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    useQueries.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/hooks/useQueries.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    __tests__/
+                i18n-strings/
+                    text-filter.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/i18n-strings/text-filter.ts
+                    pagination.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/i18n-strings/pagination.ts
+                    table.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/i18n-strings/table.ts
+  Function: createTableSortLabelFn
+  Function: Anonymous Function
+                    app-layout.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/i18n-strings/app-layout.ts
+                    flashbar.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/i18n-strings/flashbar.ts
+                    collection-preferences.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/i18n-strings/collection-preferences.ts
+                    index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/i18n-strings/index.ts
+                    header.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/i18n-strings/header.ts
+  Function: Anonymous Function
+                services/
+                    index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/services/index.ts
+                    fetchModelData.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/services/fetchModelData.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    __tests__/
+                        fetchModelData.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/ui-deployment/src/services/__tests__/fetchModelData.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+        lambda/
+            model-info/
+                jest.config.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/jest.config.js
+                power-tools-init.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/power-tools-init.ts
+                index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/index.ts
+  Function: Anonymous Function
+                test/
+                    index.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/test/index.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    event-test-data.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/test/event-test-data.ts
+                    utils/
+                        model-info-retriever.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/test/utils/model-info-retriever.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                utils/
+                    http-response-formatters.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/utils/http-response-formatters.ts
+  Function: to
+                    model-info-retriever.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/utils/model-info-retriever.ts
+  Function: to
+  Function: to
+  Class: ModelInfoRetriever
+                    check-env.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/utils/check-env.ts
+  Function: Anonymous Function
+                    constants.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/model-info/utils/constants.ts
+            websocket-connectors/
+                connect-handler.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/websocket-connectors/connect-handler.ts
+  Function: Anonymous Function
+                jest.config.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/websocket-connectors/jest.config.js
+                disconnect-handler.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/websocket-connectors/disconnect-handler.ts
+  Function: Anonymous Function
+                test/
+                    disconnect-handler.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/websocket-connectors/test/disconnect-handler.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    connect-handler.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/websocket-connectors/test/connect-handler.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+            layers/
+                huggingface_hub/
+                langchain/
+                aws-sdk-lib/
+                aws_boto3/
+                anthropic/
+                aws-node-user-agent-config/
+                    index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/aws-node-user-agent-config/index.ts
+                    test/
+                        index.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/aws-node-user-agent-config/test/index.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                custom_boto3_init/
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/custom_boto3_init/__init__.py
+                    helper.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/custom_boto3_init/helper.py
+  Function: get_session
+  Function: get_service_client
+  Function: get_service_resource
+                    custom_config.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/custom_boto3_init/custom_config.py
+  Function: custom_usr_agent_config
+  Function: check_env_setup
+                    test/
+                        conftest.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/custom_boto3_init/test/conftest.py
+  Function: aws_credentials
+    Description: Mocked AWS Credentials and general environment variables as required by python based lambda functions
+                        test_layer_env_config.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/custom_boto3_init/test/test_layer_env_config.py
+  Function: test_when_usr_agent_not_set
+  Function: test_custom_usr_agent_config
+  Function: test_with_wrong_usr_agent_key_value
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/custom_boto3_init/test/__init__.py
+                        test_service_instance_creation.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/layers/custom_boto3_init/test/test_service_instance_creation.py
+  Function: user_agent
+    Description: Mocked user agent for python boto3 calls
+  Function: test_get_session
+  Function: test_get_service_resource
+  Function: test_get_service_client
+  Function: test_get_service_resource
+            chat/
+                sagemaker_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/sagemaker_handler.py
+                huggingface_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/huggingface_handler.py
+                __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/__init__.py
+                anthropic_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/anthropic_handler.py
+                bedrock_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/bedrock_handler.py
+                clients/
+                    bedrock_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/bedrock_client.py
+                    sagemaker_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/sagemaker_client.py
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/__init__.py
+                    llm_chat_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/llm_chat_client.py
+                    anthropic_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/anthropic_client.py
+                    huggingface_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/huggingface_client.py
+                    builders/
+                        bedrock_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/builders/bedrock_builder.py
+                        llm_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/builders/llm_builder.py
+  Function: set_streaming_callbacks
+    Description: 
+        Sets the value of callbacks for the LLM model
+        
+                        anthropic_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/builders/anthropic_builder.py
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/builders/__init__.py
+                        sagemaker_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/builders/sagemaker_builder.py
+                        huggingface_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/builders/huggingface_builder.py
+                    factories/
+                        knowledge_base_factory.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/factories/knowledge_base_factory.py
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/factories/__init__.py
+                        conversation_memory_factory.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/clients/factories/conversation_memory_factory.py
+                test/
+                    conftest.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/conftest.py
+  Function: context
+  Function: ssm
+  Function: kendra_stubber
+  Function: dynamodb_resource
+  Function: secretsmanager
+  Function: apigateway_stubber
+  Function: ssm_stubber
+  Function: bedrock_stubber
+  Function: sagemaker_stubber
+  Function: setup_environment
+  Function: setup_bedrock_environment
+  Function: setup_secret
+  Function: chat_event
+  Function: llm_config
+  Function: bedrock_llm_config
+  Function: dynamodb_defaults_table
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/__init__.py
+                    clients/
+                        test_anthropic_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/test_anthropic_client.py
+  Function: llm_client
+  Function: test_get_model
+                        test_huggingface_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/test_huggingface_client.py
+  Function: llm_client
+  Function: test_parent_get_llm_config
+                        test_llm_chat_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/test_llm_chat_client.py
+  Function: simple_llm_client
+  Function: llm_client
+  Function: test_no_body
+  Function: test_empty_body
+  Function: test_missing_user_id
+  Function: test_body_missing_required_fields
+  Function: test_prompt_valid_length
+  Function: test_empty_prompt
+  Function: test_empty_question
+  Function: test_multiple_length_issues
+  Function: test_get_event_conversation_id
+  Function: test_env_not_set
+  Function: test_env_set
+  Function: test_parent_get_llm_config
+  Function: test_parent_get_llm_config_missing_env
+  Function: test_parent_get_llm_config_parameter_not_found
+  Function: test_parent_get_llm_config_client_exceptions
+  Function: test_construct_chat_model_failure
+  Function: test_construct_chat_model_missing_params
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/__init__.py
+                        test_sagemaker_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/test_sagemaker_client.py
+  Function: llm_client
+  Function: test_get_model
+                        test_bedrock_client.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/test_bedrock_client.py
+  Function: llm_client
+  Function: test_get_model
+                        builders/
+                            test_sagemaker_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/builders/test_sagemaker_builder.py
+                            test_llm_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/builders/test_llm_builder.py
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/builders/__init__.py
+                            test_huggingface_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/builders/test_huggingface_builder.py
+                            test_anthropic_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/builders/test_anthropic_builder.py
+  Function: test_set_llm_model_with_missing_config_fields
+                            test_bedrock_builder.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/builders/test_bedrock_builder.py
+  Function: test_set_llm_model_with_missing_config_fields
+                        factories/
+                            test_conversation_memory_factory.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/factories/test_conversation_memory_factory.py
+  Function: test_get_ddb_memory_success
+  Function: test_get_ddb_memory_error
+  Function: test_get_ddb_memory_missing_table_name
+  Function: test_get_ddb_memory_missing_memory_type
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/factories/__init__.py
+                            test_knowledge_base_factory.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/clients/factories/test_knowledge_base_factory.py
+  Function: test_get_kb_memory_success
+  Function: test_unsupported_kb
+  Function: test_get_kb_missing_kendra_index
+  Function: test_get_kb_missing_config
+  Function: test_get_kb_missing_type
+                    utils/
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/utils/__init__.py
+                        test_helpers.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/utils/test_helpers.py
+  Function: test_validate_prompt_template_valid
+  Function: test_validate_prompt_template_invalid
+  Function: test_validate_prompt_template_valid
+  Function: test_valid_type_casting
+  Function: test_invalid_casting
+  Function: test_count_keys
+  Function: test_dict_pop_null_values
+                    shared/
+                        memory/
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/shared/memory/__init__.py
+                            test_ddb_chat_memory.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/shared/memory/test_ddb_chat_memory.py
+  Function: test_init
+  Function: test_load_memory_variables_with_none
+  Function: test_load_memory_variables
+                            test_ddb_enhanced_chat_message_history.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/shared/memory/test_ddb_enhanced_chat_message_history.py
+  Function: setup_test_table
+  Function: test_add_message
+  Function: test_add_message_with_ttl_env_var
+  Function: test_adding_multiple_messages
+  Function: test_getting_different_messages_for_different_conversations
+  Function: test_instances_with_same_user_conversation_are_equal
+  Function: test_works_with_existing_ddb
+  Function: test_no_messages
+  Function: test_clear
+  Function: test_get_message_generic_error
+  Function: test_get_message_no_resource_error
+  Function: test_add_message_error
+  Function: test_clear_error
+                        defaults/
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/shared/defaults/__init__.py
+                            test_model_defaults.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/shared/defaults/test_model_defaults.py
+                        knowledge/
+                            test_kendra_knowledge_base.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/shared/knowledge/test_kendra_knowledge_base.py
+  Function: test_knowledge_base_construction_fails
+  Function: test_knowledge_base_construction
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/shared/knowledge/__init__.py
+                            test_kendra_retriever.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/shared/knowledge/test_kendra_retriever.py
+  Function: kendra_retriever
+  Function: get_kendra_result_stubbed
+  Function: load_kendra_response
+  Function: kendra_query_expected_response
+  Function: test_kendra_retriever
+  Function: test_kendra_query
+  Function: test_get_relevant_documents
+  Function: test_kendra_throws_client_error
+                    llms/
+                        test_anthropic.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/test_anthropic.py
+  Function: streamless_chat
+  Function: streaming_chat
+                        test_sagemaker.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/test_sagemaker.py
+  Function: streamless_chat
+  Function: streaming_chat
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/__init__.py
+                        test_bedrock.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/test_bedrock.py
+  Function: streamless_chat
+  Function: streaming_chat
+  Function: test_generate
+  Function: test_bedrock_get_llm_class
+                        test_huggingface.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/test_huggingface.py
+  Function: chat
+  Function: inference_chat
+                        test_base_langchain.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/test_base_langchain.py
+  Function: chat
+                        models/
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/__init__.py
+                            bedrock_params/
+                                test_anthropic.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/bedrock_params/test_anthropic.py
+  Function: test_anthropic_incorrect_params
+                                test_cohere.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/bedrock_params/test_cohere.py
+  Function: test_cohere_incorrect_params
+                                __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/bedrock_params/__init__.py
+                                test_amazon.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/bedrock_params/test_amazon.py
+  Function: test_amazon_incorrect_params
+                                test_meta.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/bedrock_params/test_meta.py
+  Function: test_meta_incorrect_params
+                                test_ai21.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/bedrock_params/test_ai21.py
+  Function: test_ai21_incorrect_params
+                            sagemaker/
+                                test_content_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/sagemaker/test_content_handler.py
+  Function: test_replace_placeholders
+  Function: test_transform_input
+  Function: test_transform_output
+  Function: test_transform_output_raises
+                                __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/models/sagemaker/__init__.py
+                        rag/
+                            test_bedrock_retrieval.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/rag/test_bedrock_retrieval.py
+  Function: llm_params
+  Function: titan_model
+  Function: temp_bedrock_dynamodb_defaults_table
+                            test_huggingface_retrieval.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/rag/test_huggingface_retrieval.py
+  Function: knowledge_base
+  Function: llm_params
+  Function: streamless_huggingface_model
+  Function: streamless_huggingface_endpoint
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/rag/__init__.py
+                            test_anthropic_retrieval.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/rag/test_anthropic_retrieval.py
+  Function: llm_params
+  Function: anthropic_model
+                            test_sagemaker_retrieval.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/rag/test_sagemaker_retrieval.py
+  Function: llm_params
+  Function: sagemaker_model
+  Function: temp_sagemaker_dynamodb_defaults_table
+                        factories/
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/factories/__init__.py
+                            test_bedrock_params_factory.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/llms/factories/test_bedrock_params_factory.py
+  Function: test_sanitizer_passes
+  Function: test_sanitizer_fails
+                    handlers/
+                        test_huggingface_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/handlers/test_huggingface_handler.py
+                        test_anthropic_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/handlers/test_anthropic_handler.py
+                        test_bedrock_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/handlers/test_bedrock_handler.py
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/handlers/__init__.py
+                        test_sagemaker_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/test/handlers/test_sagemaker_handler.py
+                utils/
+                    constants.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/utils/constants.py
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/utils/__init__.py
+                    custom_exceptions.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/utils/custom_exceptions.py
+                    enum_types.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/utils/enum_types.py
+                    helpers.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/utils/helpers.py
+  Function: validate_prompt_placeholders
+    Description: Checks that the prompt template contains all the required placeholders. Placeholders are expected to be surrounded
+      by curly braces {}, and can appear only once.
+
+    Args:
+        prompt_template (str): Prompt template to be validated.
+        required_placeholders (List[str]): List of required placeholders
+
+    Raises:
+        ValueError: When a placeholder is not present in the prompt template, or there is more than 1 occurrence of it.
+    
+  Function: pop_null_values
+    Description: 
+    Recursively pops null values from a nested dictionary or a list of dictionaries
+    Args:
+        input_dict (dict): The dictionary to recursively pop null values from.
+    Returns:
+        dict: The dictionary with null values popped.
+    
+                    handler_response_formatter.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/utils/handler_response_formatter.py
+                shared/
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/__init__.py
+                    memory/
+                        ddb_enhanced_message_history.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/memory/ddb_enhanced_message_history.py
+                        ddb_chat_memory.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/memory/ddb_chat_memory.py
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/memory/__init__.py
+                    callbacks/
+                        websocket_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/callbacks/websocket_handler.py
+  Function: send_references
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/callbacks/__init__.py
+                        websocket_error_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/callbacks/websocket_error_handler.py
+                        websocket_streaming_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/callbacks/websocket_streaming_handler.py
+  Function: send_references
+                    defaults/
+                        model_defaults.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/defaults/model_defaults.py
+  Function: __init__
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/defaults/__init__.py
+                    knowledge/
+                        knowledge_base.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/knowledge/knowledge_base.py
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/knowledge/__init__.py
+                        kendra_retriever.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/knowledge/kendra_retriever.py
+                        kendra_knowledge_base.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/shared/knowledge/kendra_knowledge_base.py
+                llms/
+                    base_langchain.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/base_langchain.py
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/__init__.py
+                    sagemaker.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/sagemaker.py
+                    huggingface.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/huggingface.py
+                    anthropic.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/anthropic.py
+                    bedrock.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/bedrock.py
+                    models/
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/__init__.py
+                        llm.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/llm.py
+  Function: __post_init__
+                        custom_chat_anthropic.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/custom_chat_anthropic.py
+                        llm_params.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/llm_params.py
+                        bedrock_params/
+                            mistral.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/bedrock_params/mistral.py
+  Function: __post_init__
+    Description: 
+        Parses model_params to produce clean model parameters per the standards of the an underlying Bedrock model family
+        Empty keys are dropped from the BedrockMistralLLMParams dataclass object. All model parameters are optional.
+        
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/bedrock_params/__init__.py
+                            llm.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/bedrock_params/llm.py
+  Function: cleanup
+                            anthropic.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/bedrock_params/anthropic.py
+  Function: __post_init__
+    Description: 
+        Parses model_params to produce clean model parameters per the standards of the an underlying Bedrock model family
+        For example, for Bedrock's Anthropic provision,
+            if provided with:
+                {
+                    "max_tokens_to_sample": 250,
+                    "stop_sequences": '["\nAI:", "\nHuman:"]'
+                    "temperature": 0.2,
+                    "topP": None
+                }
+            the response is:
+                BedrockAnthropicLLMParams(model_params={'max_tokens_to_sample': 250, 'stop_sequences': ['\nAI:', '\nHuman:'], 'temperature': 0.2})
+
+        Empty keys are dropped from the BedrockAnthropicLLMParams dataclass object. All model parameters are optional.
+        Temperature is set to model default value if not provided.
+        Stop sequences are also set to a default if a default exists for that model provider.
+        model_defaults is a ModelDefaults object that holds the defaults value. It is popped from the object once the initial
+            values are set using it.
+
+        
+  Function: __post_init__
+  Function: __post_init__
+                            ai21.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/bedrock_params/ai21.py
+  Function: __post_init__
+    Description: 
+        Parses model_params to produce clean model parameters per the standards of the an underlying Bedrock model family
+        For example, for Bedrock's AI21 provision,
+            if provided with:
+                {
+                    "maxTokens": 250,
+                    "stopSequences": '["\nAI:", "\nHuman:"]'
+                    "temperature": 0.2,
+                    "topP": None
+                }
+            the response is:
+                BedrockAI21LLMParams(model_params={'maxTokens': 250, 'stopSequences': ['\nAI:', '\nHuman:'], 'temperature': 0.2})
+
+        Empty keys are dropped from the BedrockAI21LLMParams dataclass object. All model parameters are optional.
+        Stop sequences are also set to a default if a default exists for that model provider.
+        model_defaults is a ModelDefaults object that holds the defaults value. It is popped from the object once the initial
+            values are set using it.
+
+        
+                            cohere.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/bedrock_params/cohere.py
+  Function: __post_init__
+    Description: 
+        Parses model_params to produce clean model parameters per the standards of the an underlying Bedrock model family
+        Empty keys are dropped from the BedrockCohereLLMParams dataclass object. All model parameters are optional.
+        Stop sequences are extended to include defaults if a default exists for that model provider.
+        
+                            amazon.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/bedrock_params/amazon.py
+  Function: __post_init__
+    Description: 
+        Parses model_params to produce clean model parameters per the standards of the an underlying Bedrock model family
+        For example, for Amazon Titan,
+            if provided with:
+                {
+                    "maxTokenCount": 250,
+                    "stopSequences": '["\nAI:", "\nHuman:"]'
+                    "temperature": 0.2,
+                    "topP": None
+                }
+            the response is:
+                BedrockAmazonLLMParams(model_params={'maxTokenCount': 250, 'stopSequences': ['\nAI:', '\nHuman:'], 'temperature': 0.2})
+
+        Empty keys are dropped from the BedrockAmazonLLMParams dataclass object. All model parameters are optional.
+        Stop sequences are also set to a default if a default exists for that model provider.
+        model_defaults is a ModelDefaults object that holds the defaults value. It is popped from the object once the initial
+            values are set using it.
+
+        
+                            meta.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/bedrock_params/meta.py
+  Function: __post_init__
+    Description: 
+        Parses model_params to produce clean model parameters per the standards of the an underlying Bedrock model family
+        Empty keys are dropped from the BedrockCohereLLMParams dataclass object. All model parameters are optional.
+        Stop sequences are extended to include defaults if a default exists for that model provider.
+        
+                        sagemaker/
+                            __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/sagemaker/__init__.py
+                            content_handler.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/models/sagemaker/content_handler.py
+  Function: __init__
+  Function: replace_placeholders
+    Description: 
+        Finds the occurrence keys with placeholders of the format: <<placeholder>> and replaces the values with
+        the corresponding value from `placeholders` dict.
+        If `placeholders` doesn't have a key `x` for a placeholder like: <<x>>, a default value of None is
+        assigned instead.
+        Returns the new_value with placeholders replaced.
+        Args:
+            input (dict): The dictionary to replace placeholders (of type `<<placeholder>>`) in, eg
+                {"param1": <<placeholder1>>, "param2": "DEFAULT"}. Placeholders are checked for all values of a
+                nested dictionary recursively
+            placeholders (dict): The dictionary with actual values of the placeholders, eg {"placeholder1": 0.2}
+        Returns:
+            None; All changes are done in-place in the input
+
+        
+                    rag/
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/rag/__init__.py
+                        bedrock_retrieval.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/rag/bedrock_retrieval.py
+                        sagemaker_retrieval.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/rag/sagemaker_retrieval.py
+                        huggingface_retrieval.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/rag/huggingface_retrieval.py
+                        anthropic_retrieval.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/rag/anthropic_retrieval.py
+                    factories/
+                        bedrock_adapter_factory.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/factories/bedrock_adapter_factory.py
+  Function: __init__
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/chat/llms/factories/__init__.py
+            custom-authorizer/
+                jest.config.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-authorizer/jest.config.js
+                rest-authorizer.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-authorizer/rest-authorizer.ts
+  Function: to
+  Function: will
+                websocket-authorizer.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-authorizer/websocket-authorizer.ts
+  Function: to
+  Function: will
+                test/
+                    jest-environment-variables.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-authorizer/test/jest-environment-variables.ts
+                    get-policy.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-authorizer/test/get-policy.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    authorizer.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-authorizer/test/authorizer.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    event-test-data.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-authorizer/test/event-test-data.ts
+                utils/
+                    get-policy.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-authorizer/utils/get-policy.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+            custom-resource/
+                cfn_response.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/cfn_response.py
+                lambda_ops_metrics.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/lambda_ops_metrics.py
+  Function: handler
+                __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/__init__.py
+                lambda_func.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/lambda_func.py
+  Function: get_function_for_resource
+    Description: A factory function that resolves to the function to be called using the operations_dictionary
+
+    Args:
+        resource (str): Name of the operation that the custom resource should perform. This name is used as the key to
+        look for the implementation in the operations_dictionary
+
+    Raises:
+        UnSupportedOperationTypeException: If operation type passed is not supported by the custom resource lambda function
+
+    Returns:
+        callable: returns a method that should be invoked to perform the specific custom resource operation
+    
+  Function: handler
+    Description: The main entry point for the custom resource lambda function. It looks for the implementation for the operation type passed in the
+    resource properties and invokes that specific operation
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: Any failure that occurs during the operation that the function is supposed to execute
+    
+                test/
+                    conftest.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/conftest.py
+  Function: aws_credentials
+    Description: Mocked AWS Credentials and general environment variables as required by python based lambda functions
+  Function: s3
+  Function: ddb
+  Function: cw_logs
+  Function: ssm
+  Function: secretsmanager
+  Function: custom_resource_event
+    Description: This event object mocks values that the lambda event object contains when invoked as a CloudFormation custom resource
+  Function: mock_lambda_context
+    Description: Create a mock LambdaContext object that can be passed to a lambda function invocation
+  Function: __init__
+  Function: reset_metric_set
+    Description: Clear out every metric data prior to every test
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/__init__.py
+                    test_lambda_func.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/test_lambda_func.py
+  Function: patch_powertools
+  Function: test_get_function_for_operation
+  Function: test_handler_for_success
+  Function: test_handler_for_error
+  Function: test_get_function_for_operation
+                    test_lambda_ops_metrics.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/test_lambda_ops_metrics.py
+  Function: test_lambda_handler_success
+  Function: test_lambda_handler_on_exception
+                    utils/
+                        test_metrics.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/utils/test_metrics.py
+  Function: test_when_env_variables_set
+  Function: test_when_solution_version_not_set
+  Function: test_when_solution_id_not_set
+  Function: test_sending_cw_metrics
+  Function: test_sending_cw_metrics_raises
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/utils/__init__.py
+                        test_lambda_context_parser.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/utils/test_lambda_context_parser.py
+  Function: test_get_invocation_account_id
+                        test_metrics_payload.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/utils/test_metrics_payload.py
+  Function: cw_stub
+  Function: metric_responses
+  Function: setup_metrics_environment
+  Function: get_metric_data_stubbed
+  Function: test_publish_metrics_success
+  Function: test_publish_metrics_success_kendra_missing
+  Function: test_publish_metrics_raises
+                    operations/
+                        test_shared.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_shared.py
+  Function: test_get_zip_archive
+  Function: test_get_archive_errors_for_wrong_prefix
+  Function: test_with_bad_zip_file
+                        test_copy_web_ui.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_copy_web_ui.py
+  Function: test_verify_env_setup_success
+  Function: test_evn_setup_with_resource_props_wrong_value
+  Function: test_evn_setup_with_resource_props_empty
+  Function: test_evn_with_missing_source_bucket
+  Function: test_evn_with_missing_destination_bucket
+  Function: test_evn_with_source_bucket_str_empty
+  Function: test_env_with_destination_bucket_str_empty
+  Function: test_env_with_missing_ssm_param_key
+  Function: test_env_with_non_existing_ssm_param_key
+  Function: test_get_params_succes
+  Function: test_get_params_failure
+  Function: test_execute_call_success
+  Function: test_execute_call_with_bad_archive
+  Function: test_execute_call_with_wrong_source_bucket
+  Function: test_execute_call_with_wrong_destination_bucket
+  Function: test_lambda_handler
+                        test_use_case_policy.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_use_case_policy.py
+  Function: test_when_operation_type_is_invalid
+  Function: test_when_resource_properties_missing
+  Function: test_create_with_no_admin_group
+  Function: test_create_with_existing_admin_group
+  Function: test_create_where_group_exists
+  Function: test_create_fails
+  Function: test_delete
+  Function: test_delete_with_no_admin_group
+  Function: test_delete_with_no_table_fails_but_continues
+  Function: test_delete_fails
+  Function: test_execute_method
+  Function: test_lambda_handler
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/__init__.py
+                        test_admin_policy.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_admin_policy.py
+  Function: test_when_operation_type_is_invalid
+  Function: test_when_resource_properties_missing
+  Function: test_create_with_no_admin_group
+  Function: test_create_with_existing_admin_group
+  Function: test_create_fails
+  Function: test_delete
+  Function: test_delete_fails
+  Function: test_execute_method
+  Function: test_lambda_handler
+                        test_copy_model_info_to_ddb.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_copy_model_info_to_ddb.py
+  Function: test_verify_env_setup_success
+  Function: test_verify_when_ddb_table_missing
+  Function: test_verify_when_source_bucket_missing
+  Function: test_verify_when_source_prefix_missing
+  Function: test_create_success
+  Function: test_create_with_incorrect_table_name
+  Function: test_create_with_bad_zip_file
+  Function: test_execute_call_success
+  Function: test_execute_with_missing_resource_properties
+  Function: test_lambda_handler
+                        test_anonymous_metric.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_anonymous_metric.py
+  Function: setup_ssm
+  Function: test_when_operation_type_is_invalid
+  Function: test_sending_metric
+  Function: test_sending_metric_missing_props
+  Function: test_sanitize_method
+  Function: test_lambda_handler
+  Function: test_lambda_handler_for_missing_props
+                        test_update_s3_policy.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_update_s3_policy.py
+  Function: test_execute_success
+  Function: test_execute_with_matching_policy
+  Function: test_execute_delete
+  Function: test_verify_env_setup_success
+  Function: test_verify_env_setup_failure
+  Function: test_create_success
+                        test_gen_uuid.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_gen_uuid.py
+  Function: test_regex
+  Function: test_gen_uuid_success
+  Function: test_gen_uuid_success
+  Function: test_when_uuid_fails
+  Function: test_when_operation_type_is_invalid
+  Function: test_lambda_handler
+                        test_copy_api_key.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_copy_api_key.py
+  Function: test_verify_env_setup_success
+  Function: test_env_setup_with_no_api_key
+  Function: test_env_setup_with_no_secret_name
+  Function: test_create_failure
+  Function: test_create_success
+  Function: test_create_success_when_existing
+  Function: test_delete_failure
+  Function: test_delete_success
+  Function: test_execute_create_and_update
+  Function: test_execute_delete
+  Function: test_execute_failure
+                        test_webconfig.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_webconfig.py
+  Function: test_verify_env_setup_success
+  Function: test_env_setup_with_no_ssm_key
+  Function: test_env_setup_with_no_api_endpoint
+  Function: test_env_setup_with_no_usr_pool_id
+  Function: test_env_setup_with_no_usr_pool_client_id
+  Function: test_create_success
+  Function: test_create_success_with_additional_config
+  Function: test_create_success_with_additional_config_empty
+  Function: test_delete_failure
+  Function: test_delete_success
+  Function: test_execute_create_and_update
+  Function: test_execute_delete
+  Function: test_execute_failure
+                        test_cw_loggroup_policy.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/operations/test_cw_loggroup_policy.py
+  Function: test_when_operation_type_is_invalid
+  Function: test_when_resource_properties_missing
+  Function: test_create_log_policy_for_valid_principal
+  Function: test_create_log_policy_for_invalid_principal
+  Function: test_update_method
+  Function: test_delete_method
+  Function: test_delete_method_for_invalid_policy
+  Function: test_create_method_for_succesful_creation
+  Function: test_execute_method
+  Function: test_lambda_handler
+                    fixtures/
+                        cw_loggroup_policy_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/cw_loggroup_policy_events.py
+  Function: lambda_event
+                        copy_web_ui_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/copy_web_ui_events.py
+  Function: lambda_event
+  Function: web_ui_copy_setup
+                        copy_model_info_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/copy_model_info_events.py
+  Function: copy_to_ddb_event
+  Function: setup_model_info
+                        gen_uuid_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/gen_uuid_events.py
+  Function: lambda_event
+                        copy_api_key_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/copy_api_key_events.py
+  Function: lambda_event
+  Function: setup_secretsmanager
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/__init__.py
+                        use_case_policy_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/use_case_policy_events.py
+  Function: lambda_event
+  Function: setup_ddb
+                        anonymous_metrics_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/anonymous_metrics_events.py
+  Function: lambda_events
+                        update_s3_policy_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/update_s3_policy_events.py
+  Function: lambda_event
+  Function: s3_stub
+  Function: put_public_access_block_as_false
+  Function: put_public_access_block_as_true
+  Function: s3_stub_success
+  Function: s3_stub_existing_non_matching_policy
+  Function: s3_stub_existing_policy
+  Function: s3_stub_existing_policy_for_different_prefix
+                        admin_policy_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/admin_policy_events.py
+  Function: lambda_event
+  Function: setup_ddb
+                        webconfig_events.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/test/fixtures/webconfig_events.py
+  Function: lambda_event
+  Function: lambda_event_with_additional_config
+  Function: lambda_event_with_additional_config_internal_user
+  Function: lambda_event_with_additional_config_external_user
+  Function: setup_ssm
+                utils/
+                    metrics.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/utils/metrics.py
+  Function: verify_env_setup
+    Description: 
+    This method verifies the mandatory environment variables 'SOLUTION_ID' and 'SOLUTION_VERSION'.
+    
+  Function: push_builder_metrics
+                    lambda_context_parser.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/utils/lambda_context_parser.py
+  Function: get_invocation_account_id
+    Description: Parses the account id from the lambda context.
+
+    Returns:
+        str: the account id
+    
+                    constants.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/utils/constants.py
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/utils/__init__.py
+                    metrics_payload.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/utils/metrics_payload.py
+  Function: get_cloudwatch_metrics_queries
+  Function: get_metrics_payload
+                    data.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/utils/data.py
+  Function: __init__
+  Function: __post_init__
+                operations/
+                    webconfig.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/webconfig.py
+  Function: verify_env_setup
+    Description: This method verifies if all the necessary properties are correctly set in the event object as received by the lambda function's handler
+
+    Args:
+        event (LambdaEvent): An event received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        ValueError: If any of the properties in the custom resource properties are not set correctly or are not available
+    
+  Function: get_additional_config_ssm_parameter
+    Description: This method retrieves the additional configuration from SSM Parameter Store
+
+    Args:
+        ssm_key (str): SSM Parameter Store key
+        retries (int): The number of times to retry. May be needed as sometimes IAM policy changes take time to propagate, which can mean we need to retry.
+        retry_interval (int): The number of seconds to wait between retries, in seconds.
+
+    Returns:
+        dict: Additional configuration (e.g. the use case config retrieved from SSM). Empty if not retrievable.
+    
+  Function: create
+    Description: This method creates a JSON string from all incoming resource properties and writes to SSM Parameter store.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        botocore.exceptions.ClientError: Failures related to SSM Parameter Store PutParameter operation
+    
+  Function: delete
+    Description: This method deletes the Key and Value from SSM Parameter Store. The Key is retrieved as the physical resource ID from the event object
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises
+        botocore.exceptions.ClientError: Failures related to SSM Parameter store delete operation
+    
+  Function: execute
+    Description: This method retrieves the web configuration required by the front-end client stack and stores it in the SSM parameter
+    with the provided key. The parameters are:
+        - API Endpoint
+        - User Pool ID
+        - User Pool Client ID
+        - Kendra Stack Deployed status
+        - AWS Region
+
+    For delete event, the lambda will delete the configuration from SSM Parameter Store.
+
+    Note: for update events, if the SSM Key has changed, it is not possible to delete the old key since the key name is not known.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: if the custom resource properties are not passed correctly or an error occurs during s3 copy/ transfer
+        operation, this method will throw an error. During the handling of this exception it also sends a 'FAILED' status to the  AWS
+        Cloudformation service.
+    
+                    operation_types.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/operation_types.py
+                    cw_loggroup_policy.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/cw_loggroup_policy.py
+  Function: verify_env_setup
+    Description: This method verifies all the attributes are available in 'ResourceProperties'. The mandatory ones are 'CWLOG_NAME', 'CWLOGS_ARN',
+    'SERVICE_PRINCIPAL' (to which the log policy should be applied to), Key for 'Resource' provides the operation to be performed. This
+    sub-module only support updating log policies for certain AWS Service Principals.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        ValueError: If any of the keys are not found under event['ResourceProperties], the method throws a ValueError exception
+    
+  Function: create_loggroup_policy
+    Description: This method generates the CloudWatch Log policy that should be applied to the provided service principal. Before returning the
+    policy definition, it validates if the service principal is from the list of allowed principals.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        InvalidPrincipalException: If the service principal provided under 'ResourceProperties' is not in the allow list, the method raises
+        this exception
+
+    Returns:
+        (str): IAM policy definition to be applied
+    
+  Function: create
+    Description: This method provides implementation for the 'Create' event for CloudFormation Custom Resource creation. This method will put/ create a cloudwatch
+    logs resource policy for the service principal passed in the ResourceProperties of the CloudFormation event.
+
+    This method also calls :meth:`create_loggroup_policy` to get a string definition for the resource policy to use
+
+    Args:
+        cw_logs (boto3.client): A boto3 client to make AWS service API calls
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        botocore.exceptions.ClientError: If the service call to put/ create resource policy for CloudWatch logs fails
+    
+  Function: update
+    Description: This method provides implementation for 'Delete' event for CloudFormation Custom Resource creation. This operation is not supported for resource policy
+    and hence this method will send a SUCCESS status to CloudFormation when called
+
+    Args:
+        cw_logs (boto3.client): A boto3 client to make AWS service API calls
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+    
+  Function: delete
+    Description: This method provides implementation for the 'Delete vent for CloudFormation Custom Resource creation. As part of the delete event, the resource
+    policy will lbe deleted
+
+    Args:
+        cw_logs (boto3.client): A boto3 client to make AWS service API calls
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        botocore.exceptions.ClientError: If the service call to delete resource policy for CloudWatch logs fails
+    
+  Function: execute
+    Description: This sub-module implements creation of resource policies for CloudWatch log events for specific principals when the same cannot be achieved
+    through CloudFormation and require AWS API calls.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: if there are an errors in creating resource policies. During the handling of this exception it also sends a 'FAILED' status to
+        the AWS Cloudformation service.
+    
+                    update_s3_policy.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/update_s3_policy.py
+  Function: create
+    Description: 
+    This function updates the logging bucket's policy so that the source bucket can write access logs to
+    the logging bucket. It first disables `BlockPublicPolicy`, retrieves the existing policy and then
+    appends the new statement to the existing policy.
+
+    Post completion of updating the policy, it sets all the `PublicAccessBlockConfiguration` to `True`
+
+    Args:
+        event (LambdaEvent): An event received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+    
+  Function: verify_env_setup
+  Function: execute
+    Description: This method provides implementation to update the s3 bucket policy for logging buckets
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: Any failures during the execution of this method
+    
+                    copy_web_ui.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/copy_web_ui.py
+  Function: get_params
+  Function: verify_env_setup
+    Description: This method verifies if all the necessary properties are correctly set in the event object as received by the lambda function's handler
+
+    Args:
+        event (LambdaEvent): An event received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        ValueError: If any of the properties in the custom resource properties are not set correctly or are not available
+    
+  Function: delete
+    Description: This method implements the operations to be performed when a `delete` event is received by a AWS CloudFormation custom resource. This method
+    requires delete permissions on the destination bucket. All objects including any versions of the templates will be deleted from the destination
+    bucket.
+
+    Args:
+        s3_resource (boto3.s3): A boto3 resource for the S3 service
+        destination_bucket_name (str): Bucket name created during deployment where website content was uploaded after unzipping them from the archive
+
+    Raises
+        botocore.exceptions.ClientError: Failures related to S3 bucket operations
+    
+  Function: execute
+    Description: This method provides implementation to copy web ui to s3 bucket from a zip artifact.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: Any failures during the execution of this method
+    
+                    __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/__init__.py
+                    copy_api_key.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/copy_api_key.py
+  Function: verify_env_setup
+    Description: This method verifies if all the necessary properties are correctly set in the event object as received by the lambda function's handler
+
+    Args:
+        event (LambdaEvent): An event received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        ValueError: If any of the properties in the custom resource properties are not set correctly or are not available
+    
+  Function: create
+    Description: This method creates secret from the incoming resource properties and writes to Secrets Manager.
+    If the secret already exists (such as in the case of an update event), we update the value.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        botocore.exceptions.ClientError: Failures related to SSM Parameter Store PutParameter operation
+    
+  Function: delete
+    Description: This method deletes the secret containing the API key from Secrets Manager. The secret name is retrieved from the event object
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises
+        botocore.exceptions.ClientError: Failures related to SSM Parameter store delete operation
+    
+  Function: execute
+    Description: This method stores a provided API key as a secret in Secrets Manager. The secret name is retrieved from the event object.
+
+    For delete event, the lambda will delete secret from Secrets Manager.
+
+    Note: for update events, if the secret name has changed, it is not possible to delete the old key since the key name is not known.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: if the custom resource properties are not passed correctly or an error occurs during s3 copy/ transfer
+        operation, this method will throw an error. During the handling of this exception it also sends a 'FAILED' status to the  AWS
+        Cloudformation service.
+    
+                    shared.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/shared.py
+  Function: get_zip_archive
+    Description: This method takes the s3 location information for the zip and creates a buffer stream wrapped within a Zipfile
+    object so that clients can read the list of files and de-compress from the buffer rather than having to download
+    the full zip archive.
+
+    Args:
+        source_prefix (str): The prefix under the source bucket which corresponds to the archive for email templates
+        source_bucket_name (str): Bucket name which contains the asset archive with email templates
+        s3_resource (boto3.resource): A boto3 resource for the S3 service
+
+    Raises:
+        botocore.exceptions.ClientError: Failures related to S3 bucket operations
+        zipfile.error: For failures related to reading a zip archive or unzipping files from the archive
+
+    Returns:
+        zipfile.ZipFile: A reference to the zip archive from which files can be de-compressed
+    
+                    admin_policy.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/admin_policy.py
+  Function: verify_env_setup
+    Description: This method verifies if all the necessary properties are correctly set in the event object as received by the lambda function's handler
+
+    Args:
+        event (LambdaEvent): An event received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        ValueError: If any of the properties in the custom resource properties are not set correctly or are not available
+    
+  Function: create
+    Description: This method provides implementation for the 'Create' (and update) event for CloudFormation Custom Resource creation.
+    This will create a new item in the policy table for the admin group, allowing access to invoke the provided API.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        botocore.exceptions.ClientError: If the service call to put/create resource policy in DynamoDB fails
+    
+  Function: delete
+    Description: This method provides implementation for the Delete event for CloudFormation Custom Resource creation. As part of the delete event, the resource
+    item in the policy table for the admin group will be deleted
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        botocore.exceptions.ClientError: If the service call to delete resource policy for CloudWatch logs fails
+    
+  Function: execute
+    Description: This sub-module implements creation of resource policies for API access to deployed use cases. Policies for a given group are maintained in the
+    DynamoDB policy table. When this custom resource is invoked for a new deployment, a policy is created for the newly created group which grants
+    access to invoking the API. In addition, the admin user group must also be granted access to the newly created API.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: if there are an errors in creating resource policies. During the handling of this exception it also sends a 'FAILED' status to
+        the AWS Cloudformation service.
+    
+                    copy_model_info_to_ddb.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/copy_model_info_to_ddb.py
+  Function: verify_env_setup
+    Description: This method verifies if all the necessary properties are correctly set in the event object as received by the
+    lambda function's handler. The parameters required include, 'SOURCE_BUCKET_NAME', 'SOURCE_PREFIX', 'DDB_TABLE_NAME'.
+
+    Args:
+        event (LambdaEvent): An event received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        ValueError: If any of the properties in the custom resource properties are not set correctly or are not available
+    
+  Function: create
+    Description: This method implements the operations to be executed on a 'Create' CloudFormation event. This method loads the json files and
+    inserts them into the dynamodb table. This operation supports only 1 JSON object (workflow configuration) per file. The zip archive
+    can contain multiple JSON files each with containing a unique 'ModelProviderName' and 'ModelName' across all the files.
+
+    Args:
+        source_bucket_name (str): Bucket name which contains the asset archive with workflow config files
+        source_prefix (str): The prefix under the source bucket which corresponds to the archive for workflow config files
+        ddb_table_name (str): The dynamodb table where the config files should stored
+        retries (int): The number of times to retry. May be needed as sometimes IAM policy changes take time to propagate, which can mean we need to retry.
+        retry_interval (int): The number of seconds to wait between retries, in seconds.
+
+    Raises
+        botocore.exceptions.ClientError: Failures related to Dynamodb write operations
+    
+  Function: execute
+    Description: This method provides implementation to copy data to dynamodb from a JSON configuration. This configuration of workflows is
+    to be stored in dynamodb
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: Any failures during the execution of this method
+    
+                    anonymous_metrics.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/anonymous_metrics.py
+  Function: verify_env_setup
+    Description: This method verifies all the attributes are available in 'ResourceProperties'. The mandatory ones are 'SolutionId', 'Version', and
+    'Resource'
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        ValueError: If any of the keys are not found under event['ResourceProperties], the method throws a ValueError exception
+
+    
+  Function: sanitize_data
+    Description: This method removes keys; ServiceToken, Resource, SolutionId, UUID (if present), Version from under ResourceProperties.
+    Some of these values are to be send separately as anonymized values
+
+    Args:
+        resource_properties ({}): The JSON body or dict received as part of event[ResourceProperties]
+
+    Returns:
+        {}: A sanitized version in JSON format that should can be published to capture metrics
+    
+  Function: get_additional_config_ssm_parameter
+    Description: This method retrieves the additional configuration from SSM Parameter Store
+
+    Args:
+        ssm_key (str): SSM Parameter Store key
+        retries (int): The number of times to retry. May be needed as sometimes IAM policy changes take time to propagate, which can mean we need to retry.
+        retry_interval (int): The number of seconds to wait between retries, in seconds.
+
+    Returns:
+        dict: Additional configuration (e.g. the use case config retrieved from SSM). Empty if not retrievable.
+    
+  Function: execute
+    Description: This method implementation is to support sending anonymous metric to aws solution builder endpoint. On 'Create', 'Update', and 'Delete'
+    events this implementation will send configuration details about the deployed stack without any customer specific information. The
+    'Resource' property for this implementation is 'ANONYMOUS_METRIC'. Additionally, all data to be pushed as operational metrics should be
+    set directly under 'Properties' in the Custom Resource creation. 'SolutionId' and 'Version' are mandatory resource attributes
+
+    For 'Create' events, this implementation will add a UUID to the metrics payload using the uuid.uuid4() call to provide a unique identified
+    for each new deployment
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: if there are an errors in UUID generation. During the handling of this exception it also sends a 'FAILED' status to
+        the AWS Cloudformation service.
+    
+                    gen_uuid.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/gen_uuid.py
+  Function: verify_env_setup
+  Function: execute
+    Description: This method is an implementation for the 'GEN_UUID'. The generated UUID can be used to append the string to a
+    logical resource there by making it unique for a deployment. This operation will only generate an ID for 'Create'
+    event. For 'Update' and 'Delete' events, it will return empty response with 'SUCCESS' as the status.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: if there are an errors in UUID generation. During the handling of this exception it also sends a 'FAILED' status to
+        the  AWS Cloudformation service.
+    
+                    use_case_policy.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/custom-resource/operations/use_case_policy.py
+  Function: verify_env_setup
+    Description: This method verifies if all the necessary properties are correctly set in the event object as received by the lambda function's handler
+
+    Args:
+        event (LambdaEvent): An event received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        ValueError: If any of the properties in the custom resource properties are not set correctly or are not available
+    
+  Function: create
+    Description: This method provides implementation for the 'Create' (and update) event for CloudFormation Custom Resource creation.
+    This will create a new item in the policy table for the given group, allowing access to invoke the provided API.
+    This also adds a statement to the policy of the admin group in the policy table to allow admin users access to the API.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+        retries (int): The number of times to retry. May be needed as sometimes IAM policy changes take time to propagate, which can mean we need to retry.
+        retry_interval (int): The number of seconds to wait between retries, in seconds.
+
+    Raises:
+        botocore.exceptions.ClientError: If the service call to put/create resource policy in DynamoDB fails
+    
+  Function: _create_updated_admin_policy
+    Description: creates the policy statement in the admin policy allowing access to the newly created group.
+    If the given policy statement already exists, we replace it. If the admin policy does not exist, creates one.
+
+    Args:
+        group_name (str): name of the user group the admin will get access to.
+        new_policy_statement (Object): Policy statement to be added
+        table (Table): table to retrieve admin policy from
+
+    Returns:
+        _type_: _description_
+    
+  Function: delete
+    Description: This method provides implementation for the 'Delete vent for CloudFormation Custom Resource creation. As part of the delete event, the resource
+    policy will lbe deleted
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        botocore.exceptions.ClientError: If the service call to delete resource policy for CloudWatch logs fails
+    
+  Function: execute
+    Description: This sub-module implements creation of resource policies for API access to deployed use cases. Policies for a given group are maintained in the
+    DynamoDB policy table. When this custom resource is invoked for a new deployment, a policy is created for the newly created group which grants
+    access to invoking the API. In addition, the admin user group must also be granted access to the newly created API.
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's handler
+
+    Raises:
+        Exception: if there are an errors in creating resource policies. During the handling of this exception it also sends a 'FAILED' status to
+        the AWS Cloudformation service.
+    
+            reconcile-data/
+                lambda_func.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/lambda_func.py
+  Function: determine_operation
+    Description: Method to determine the reconciliation operation to be performed
+
+    Args:
+        record (dict): individual record as received in the event.
+
+    Raises:
+        OperationNotFoundException: If the method is unable to determine from any of the known operations
+        KeyError: If the keys expected in the input parameter are not found
+
+    Returns:
+        __func__: the implementing function
+    
+  Function: handler
+    Description: Lambda handler method as the entry point for all records sent for reconciliation
+
+    Args:
+        event (LambdaEvent): An event object received by the lambda function that is passed by AWS services when invoking the function's handler
+        context (LambdaContext): A context object received by the lambda function that is passed by AWS services when invoking the function's ha
+    
+                test/
+                    conftest.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/test/conftest.py
+  Function: aws_credentials
+    Description: Mocked AWS Credentials and general environment variables as required by python based lambda functions
+  Function: ssm
+  Function: custom_resource_event
+    Description: This event object mocks values that the lambda event object contains when invoked as a CloudFormation custom resource
+  Function: mock_lambda_context
+    Description: Create a mock LambdaContext object that can be passed to a lambda function invocation
+  Function: __init__
+                    test_lambda_func.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/test/test_lambda_func.py
+  Function: init_ssm
+  Function: test_handler
+  Function: test_handler_with_diff_user_identity
+  Function: test_when_operation_not_found
+                    operations/
+                        test_dynamodb_remove_case.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/test/operations/test_dynamodb_remove_case.py
+  Function: test_reconcile
+  Function: test_reconcile_failure_with_ssm
+  Function: test_reconcile_with_parameter_name_missing_in_record
+                    fixtures/
+                        remove_case_event.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/test/fixtures/remove_case_event.py
+  Function: ttl_remove_event
+                exceptions/
+                    operation_not_found.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/exceptions/operation_not_found.py
+                operations/
+                    operation_types.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/operations/operation_types.py
+                    constants.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/operations/constants.py
+                    dynamodb_remove_case.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/reconcile-data/operations/dynamodb_remove_case.py
+  Function: delete_ssm_parameter_key
+    Description: Delete record from SSM parameter store
+
+    Args:
+        record (dict): individual record to be reconciled with the parameter store
+
+    Raises:
+        botocore.exceptions.ClientError: Error performing the SSM delete parameter operation
+    
+  Function: reconcile
+    Description: Method to reconcile records in SSM and Secrets Manager
+
+    Args:
+        record (dict): individual record to be reconciled with the parameter store
+
+    Raises:
+        botocore.exceptions.ClientError: Error performing the SSM delete parameter operation
+    
+            use-case-management/
+                jest.config.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/jest.config.js
+                power-tools-init.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/power-tools-init.ts
+                index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/index.ts
+  Function: Anonymous Function
+                command.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/command.ts
+  Function: Anonymous Function
+  Class: UseCaseMgmtCommand
+  Class: CreateUseCaseCommand
+  Class: UpdateUseCaseCommand
+  Class: DeleteUseCaseCommand
+  Class: PermanentlyDeleteUseCaseCommand
+  Class: ListUseCasesCommand
+                ssm/
+                    use-case-config-view-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/ssm/use-case-config-view-builder.ts
+  Class: CommandInputBuilder
+  Class: GetParameterFromNameCommandInputBuilder
+                    use-case-config-operation-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/ssm/use-case-config-operation-builder.ts
+  Class: CommandInputBuilder
+  Class: GetParameterCommandBuilder
+  Class: to
+  Class: PutParameterCommandInputBuilder
+  Class: DeleteParameterCommandInputBuilder
+                    config-management.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/ssm/config-management.ts
+  Class: ConfigManagement
+                    web-config-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/ssm/web-config-builder.ts
+  Class: GetParameterCommandBuilder
+                secretsmanager/
+                    secret-management.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/secretsmanager/secret-management.ts
+  Class: SecretManagement
+                    api-key-secret-operation-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/secretsmanager/api-key-secret-operation-builder.ts
+  Class: CommandInputBuilder
+  Class: to
+  Class: CreateSecretCommandInputBuilder
+  Class: to
+  Class: PutSecretValueCommandInputBuilder
+  Class: DeleteSecretCommandInputBuilder
+                test/
+                    index.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/index.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    command.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/command.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    event-test-data.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/event-test-data.ts
+                    ssm/
+                        config-management.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/ssm/config-management.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        web-config-builder.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/ssm/web-config-builder.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        use-case-config-builder.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/ssm/use-case-config-builder.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    secretsmanager/
+                        api-key-secret-operation-builder.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/secretsmanager/api-key-secret-operation-builder.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        secret-management.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/secretsmanager/secret-management.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    ddb/
+                        storage-management.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/ddb/storage-management.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        builder.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/ddb/builder.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    utils/
+                        http-response-formatter.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/utils/http-response-formatter.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    cfn/
+                        stack-operation-builder.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/cfn/stack-operation-builder.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        stack-management.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/cfn/stack-management.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        stack-view-builder.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/cfn/stack-view-builder.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    model/
+                        use-case-validator.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/model/use-case-validator.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        list-use-cases.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/model/list-use-cases.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+                        use-case.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/test/model/use-case.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+                ddb/
+                    storage-view-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/ddb/storage-view-builder.ts
+  Class: CommandInputBuilder
+  Class: ScanCaseTableCommandBuilder
+                    storage-management.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/ddb/storage-management.ts
+  Function: Anonymous Function
+  Class: StorageManagement
+                    storage-operation-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/ddb/storage-operation-builder.ts
+  Class: CommandInputBuilder
+  Class: to
+  Class: PutItemCommandInputBuilder
+  Class: UpdateItemCommandBuilder
+  Class: MarkItemForDeletionCommandBuilder
+  Class: DeleteItemCommandBuilder
+  Class: GetItemCommandInputBuilder
+  Class: GetModelInfoCommandInputBuilder
+                utils/
+                    http-response-formatters.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/utils/http-response-formatters.ts
+  Function: to
+                    check-env.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/utils/check-env.ts
+  Function: Anonymous Function
+                    constants.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/utils/constants.ts
+                cfn/
+                    stack-operation-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/cfn/stack-operation-builder.ts
+  Function: Anonymous Function
+  Class: CommandInputBuilder
+  Class: CreateStackCommandInputBuilder
+  Class: UpdateStackCommandInputBuilder
+  Class: DeleteStackCommandInputBuilder
+                    stack-view-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/cfn/stack-view-builder.ts
+  Class: CommandInputBuilder
+  Class: DescribeStacksCommandInputBuilder
+                    stack-management.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/cfn/stack-management.ts
+  Class: StackManagement
+                model/
+                    use-case-validator.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/model/use-case-validator.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Class: UseCaseValidator
+                    list-use-cases.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/model/list-use-cases.ts
+  Class: ListUseCasesAdapter
+                    use-case.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/model/use-case.ts
+  Class: UseCase
+  Class: hence
+  Class: ChatUseCaseDeploymentAdapter
+  Class: ChatUseCaseInfoAdapter
+                exception/
+                    missing-value-error.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/lambda/use-case-management/exception/missing-value-error.ts
+  Class: MissingValueError
+        infrastructure/
+            jest.config.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/jest.config.js
+            test/
+                bedrock-chat-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/bedrock-chat-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                sagemaker-chat-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/sagemaker-chat-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                deployment-platform-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/deployment-platform-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                anthropic-chat-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/anthropic-chat-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                hugging-face-chat-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/hugging-face-chat-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                ui/
+                    ui-infrstructure.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/ui/ui-infrstructure.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                layers/
+                    runtime-lib.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/layers/runtime-lib.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: uses
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                    python-user-agent.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/layers/python-user-agent.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: uses
+  Function: buildStack
+                    shared-lib.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/layers/shared-lib.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: uses
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                    node-user-agent.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/layers/node-user-agent.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: uses
+  Function: Anonymous Function
+  Function: uses
+  Function: buildStack
+                framework/
+                    application-setup.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/framework/application-setup.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    base-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/framework/base-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Class: InvalidTestStack
+  Class: ValidTestStack
+  Class: extending
+  Class: implement
+                    use-case-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/framework/use-case-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                    external-use-case-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/framework/external-use-case-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                auth/
+                    deployment-platform-cognito-setup.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/auth/deployment-platform-cognito-setup.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: createTemplate
+                    use-case-cognito-setup.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/auth/use-case-cognito-setup.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: createTemplate
+                mock-lambda-func/
+                    python-lambda/
+                        __init__.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/mock-lambda-func/python-lambda/__init__.py
+                        function.py
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/mock-lambda-func/python-lambda/function.py
+  Function: handler
+                    typescript-lambda/
+                        index.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/mock-lambda-func/typescript-lambda/index.ts
+  Function: Anonymous Function
+                        test/
+                            index.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/mock-lambda-func/typescript-lambda/test/index.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    node-lambda/
+                utils/
+                    lambda-runtimes.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/utils/lambda-runtimes.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    cfn-nag-suppressions.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/utils/cfn-nag-suppressions.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: validate
+                    asset-bundling.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/utils/asset-bundling.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    solution-helper.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/utils/solution-helper.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    lambda-aspect.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/utils/lambda-aspect.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    custom-infra-setup.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/utils/custom-infra-setup.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: to
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: that
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    common-utils.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/utils/common-utils.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    app-registry.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/utils/app-registry.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                storage/
+                    deployment-platform-storage-setup.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/storage/deployment-platform-storage-setup.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    deployment-platform-storage-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/storage/deployment-platform-storage-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: to
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    chat-storage-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/storage/chat-storage-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    chat-storage-setup.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/storage/chat-storage-setup.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    use-case-model-info-storage.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/storage/use-case-model-info-storage.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    deployment-platform-model-info-storage.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/storage/deployment-platform-model-info-storage.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                search/
+                    knowledge-base-setup.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/search/knowledge-base-setup.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    kendra-knowledge-base.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/search/kendra-knowledge-base.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                mock-ui/
+                    public/
+                    src/
+                        index.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/mock-ui/src/index.js
+                api/
+                    rest-request-processor.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/api/rest-request-processor.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    deployment-platform-rest-endpoint.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/api/deployment-platform-rest-endpoint.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    websocket-request-processor.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/api/websocket-request-processor.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    websocket-endpoint.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/api/websocket-endpoint.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                vpc/
+                    external-vpc-params.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/external-vpc-params.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Class: is
+                    external-use-case-vpc.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/external-use-case-vpc.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    vpc-setup.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/vpc-setup.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    custom-vpc.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/custom-vpc.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    deployment-platform-vpc.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/deployment-platform-vpc.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    use-case-custom-vpc.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/use-case-custom-vpc.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    bedrock-vpc.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/bedrock-vpc.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    first-party-use-case-vpc.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/first-party-use-case-vpc.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    sagemaker-vpc.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/vpc/sagemaker-vpc.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                use-case-management/
+                    management-stack.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/use-case-management/management-stack.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: to
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                s3web/
+                    ui-asset.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/s3web/ui-asset.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: to
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: buildStack
+                    chat-use-case-ui-asset.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/s3web/chat-use-case-ui-asset.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+                    static-site.test.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/test/s3web/static-site.test.ts
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: to
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Function: Anonymous Function
+            bin/
+                gen-ai-app-builder.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/bin/gen-ai-app-builder.ts
+  Function: createStack
+  Function: getDefaultBaseStackProps
+            lib/
+                bedrock-chat-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/bedrock-chat-stack.ts
+  Class: BedrockChat
+                sagemaker-chat-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/sagemaker-chat-stack.ts
+  Class: SageMakerChat
+                anthropic-chat-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/anthropic-chat-stack.ts
+  Class: AnthropicChat
+                hugging-face-chat-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/hugging-face-chat-stack.ts
+  Class: HuggingFaceChat
+                deployment-platform-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/deployment-platform-stack.ts
+  Class: DeploymentPlatformStack
+                metrics/
+                    custom-dashboard.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/metrics/custom-dashboard.ts
+  Class: to
+  Class: CustomDashboard
+                    use-case-dashboard.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/metrics/use-case-dashboard.ts
+  Class: UseCaseDashboard
+                    deployment-platform-dashboard.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/metrics/deployment-platform-dashboard.ts
+  Class: DeploymentPlatformDashboard
+                ui/
+                    ui-infrastructure.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/ui/ui-infrastructure.ts
+  Function: to
+  Class: UIInfrastructure
+                layers/
+                    shared-lib.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/layers/shared-lib.ts
+  Class: PythonLangchainLayer
+                    python-user-agent.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/layers/python-user-agent.ts
+  Class: that
+  Class: PythonUserAgentLayer
+                    node-user-agent.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/layers/node-user-agent.ts
+  Class: the
+  Class: NodeUserAgentLayer
+                    ts-user-agent.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/layers/ts-user-agent.ts
+  Class: the
+  Class: TSUserAgentLayer
+                    runtime-libs.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/layers/runtime-libs.ts
+  Class: AwsNodeSdkLibLayer
+  Class: Boto3SdkLibLayer
+                framework/
+                    base-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/framework/base-stack.ts
+  Class: which
+  Class: BaseStack
+  Class: extending
+  Class: implement
+  Class: extending
+  Class: implement
+                    use-case-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/framework/use-case-stack.ts
+  Function: backing
+  Function: is
+  Class: UseCaseChatParameters
+  Class: containing
+  Class: UseCaseChat
+  Class: for
+                    ui-asset.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/framework/ui-asset.ts
+  Function: to
+  Class: UIAssets
+                    application-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/framework/application-setup.ts
+  Function: to
+  Class: ApplicationSetup
+                    external-use-case-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/framework/external-use-case-stack.ts
+  Class: ExternalUseCaseChatParameters
+  Class: containing
+  Class: ExternalUseCaseChat
+                auth/
+                    deployment-platform-cognito-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/auth/deployment-platform-cognito-setup.ts
+  Class: DeploymentPlatformCognitoSetup
+                    cognito-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/auth/cognito-setup.ts
+  Class: CognitoSetup
+                    use-case-cognito-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/auth/use-case-cognito-setup.ts
+  Class: UseCaseCognitoSetup
+                utils/
+                    cfn-nag-suppressions.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/cfn-nag-suppressions.ts
+  Function: addCfnSuppressRules
+                    nested-stack-parameters.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/nested-stack-parameters.ts
+  Function: will
+  Class: NestedStackParameters
+                    app-registry-aspects.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/app-registry-aspects.ts
+  Class: AppRegistry
+                    custom-infra-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/custom-infra-setup.ts
+  Function: to
+  Function: that
+  Class: CustomInfraSetup
+                    lambda-runtimes.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/lambda-runtimes.ts
+  Class: and
+  Class: LambdaRuntimeCommand
+  Class: PythonRuntimeCommand
+  Class: NodejsRuntimeCommand
+  Class: LambdaRuntimeCommandFactory
+                    lambda-aspect.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/lambda-aspect.ts
+  Function: includes
+  Function: node
+  Function: node
+  Class: LambdaAspects
+                    constants.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/constants.ts
+  Function: definition
+                    asset-bundling.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/asset-bundling.ts
+  Function: resolvePipOptions
+  Function: with
+  Function: with
+  Function: that
+  Function: getCommandsForPythonDockerBuild
+  Function: getCommandsForPythonDockerBuildWithPlatform
+  Function: that
+  Function: getCommandsForNodejsDockerBuild
+  Function: getCommandForTypescriptDockerBuild
+  Function: getCommandForTypescriptLayerDockerBuild
+  Function: getCommandsForReactjsDockerBuild
+  Class: PipInstallArguments
+  Class: that
+  Class: PythonAssetOptions
+  Class: that
+  Class: PythonAssetOptionsWithPlatform
+  Class: that
+  Class: NodejsAssetOptions
+  Class: TypescriptAssetOptions
+  Class: that
+  Class: ReactjsAssetOptions
+  Class: AppAssetOptionsFactory
+  Class: AppAssetBundler
+  Class: is
+                    common-utils.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/common-utils.ts
+  Function: copyFilesSyncRecursively
+  Function: Anonymous Function
+  Function: localBundling
+  Function: that
+  Function: getNodejsLayerLocalBundling
+  Function: that
+  Function: getTSLayerLocalBundling
+  Function: getJavaLayerLocalBundling
+  Function: to
+  Function: getResourceProperties
+  Function: generateSourceCodeMapping
+  Function: generateTemplateMapping
+  Function: createBasicLambdaCWPolicyDocument
+  Function: createDefaultLambdaRole
+  Function: does
+  Function: has
+  Function: hashValues
+                    solution-helper.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/utils/solution-helper.ts
+  Function: to
+  Class: SolutionHelper
+                storage/
+                    chat-storage-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/storage/chat-storage-stack.ts
+  Function: to
+  Function: to
+  Class: DynamoDBChatStorageParameters
+  Class: DynamoDBChatStorage
+                    chat-storage-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/storage/chat-storage-setup.ts
+  Function: to
+  Class: ChatStorageSetup
+                    deployment-platform-storage-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/storage/deployment-platform-storage-setup.ts
+  Function: to
+  Class: DeploymentPlatformStorageSetup
+                    deployment-platform-model-info-storage.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/storage/deployment-platform-model-info-storage.ts
+  Class: DeploymentPlatformModelInfoStorage
+                    deployment-platform-storage-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/storage/deployment-platform-storage-stack.ts
+  Function: to
+  Function: to
+  Function: to
+  Function: requires
+  Function: requires
+  Class: DynamoDBDeploymentPlatformStorageParameters
+  Class: DynamoDBDeploymentPlatformStorage
+                    model-info-storage.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/storage/model-info-storage.ts
+  Function: to
+  Class: ModelInfoStorage
+                    use-case-model-info-storage.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/storage/use-case-model-info-storage.ts
+  Class: UseCaseModelInfoStorage
+                search/
+                    kendra-knowledge-base.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/search/kendra-knowledge-base.ts
+  Class: KendraKnowledgeBaseParameters
+  Class: KendraKnowledgeBase
+                    knowledge-base-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/search/knowledge-base-setup.ts
+  Function: to
+  Class: KnowledgeBaseSetup
+                api/
+                    rest-request-processor.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/api/rest-request-processor.ts
+  Function: to
+  Function: to
+  Function: to
+  Class: RestRequestProcessor
+                    deployment-platform-rest-endpoint.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/api/deployment-platform-rest-endpoint.ts
+  Function: for
+  Function: Anonymous Function
+  Function: Anonymous Function
+  Class: DeploymentPlatformRestEndpoint
+                    websocket-request-processor.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/api/websocket-request-processor.ts
+  Function: to
+  Function: to
+  Class: WebsocketRequestProcessor
+                    websocket-endpoint.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/api/websocket-endpoint.ts
+  Function: implementing
+  Function: called
+  Function: called
+  Function: called
+  Class: WebSocketEndpoint
+                    model-schema/
+                        update-usecase-response.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/api/model-schema/update-usecase-response.ts
+                        deploy-usecase-body.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/api/model-schema/deploy-usecase-body.ts
+                        deploy-usecase-response.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/api/model-schema/deploy-usecase-response.ts
+                        update-usecase-body.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/api/model-schema/update-usecase-body.ts
+                vpc/
+                    vpc-setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/vpc-setup.ts
+  Function: to
+  Class: VPCSetup
+                    first-party-use-case-vpc.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/first-party-use-case-vpc.ts
+  Class: FirstPartyUseCaseVPC
+                    exisiting-vpc-params.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/exisiting-vpc-params.ts
+  Function: configuration
+  Function: configuration
+  Class: ExistingVPCParameters
+                    deployment-platform-vpc.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/deployment-platform-vpc.ts
+  Class: DeploymentPlatformVPC
+                    use-case-custom-vpc.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/use-case-custom-vpc.ts
+  Class: UseCaseVPC
+  Class: should
+                    custom-vpc.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/custom-vpc.ts
+  Function: to
+  Function: to
+  Function: Anonymous Function
+  Class: CustomVPC
+                    bedrock-vpc.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/bedrock-vpc.ts
+  Class: BedrockUseCaseVPC
+                    external-use-case-vpc.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/external-use-case-vpc.ts
+  Class: ExternalUseCaseVPC
+                    sagemaker-vpc.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/vpc/sagemaker-vpc.ts
+  Class: SagemakerUseCaseVPC
+                use-case-management/
+                    setup.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/use-case-management/setup.ts
+  Function: to
+  Class: UseCaseManagementSetup
+                    management-stack.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/use-case-management/management-stack.ts
+  Function: to
+  Function: to
+  Function: backing
+  Function: backing
+  Function: backing
+  Function: to
+  Function: to
+  Class: UseCaseManagementParameters
+  Class: UseCaseManagement
+                s3web/
+                    deployment-platform-ui-asset.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/s3web/deployment-platform-ui-asset.ts
+  Class: DeploymentPlatformUIAsset
+                    static-site.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/s3web/static-site.ts
+  Function: to
+  Class: StaticWebsite
+                    chat-use-case-ui-asset.ts
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/source/infrastructure/lib/s3web/chat-use-case-ui-asset.ts
+  Class: ChatUseCaseUIAsset
+    docs/
+        sagemaker-payload-examples/
+        architecture/
+    deployment/
+        get-cdk-version.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/deployment/get-cdk-version.js
+        cdk-solution-helper/
+            index.js
+File: /Users/samuellarson/muse/GitHub/ask-my-uncle-sam/deployment/cdk-solution-helper/index.js
+  Function: Anonymous Function
+  Function: code
+    .github/
+        ISSUE_TEMPLATE/
+    .git/
+        objects/
+            d8/
+            c0/
+            pack/
+            17/
+            88/
+            07/
+            31/
+            info/
+            a6/
+            e0/
+            25/
+        info/
+        logs/
+            refs/
+                heads/
+                remotes/
+                    origin/
+        hooks/
+        refs/
+            heads/
+            tags/
+            remotes/
+                origin/
+        branches/
