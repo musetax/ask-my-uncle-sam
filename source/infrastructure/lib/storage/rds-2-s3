@@ -1,0 +1,31 @@
+i need take our rds database and make an exact replica of it in an s3 bucket that has spark so it can be accessed by our Gen AI application.
+
+i want you to write the scripts and tell me how i can run them from my computer.
+
+the RDS database is called muserdsdatabasestackdev-musepostegresdb7c7399eb-bpea3lf2piue and it's endpoint is muserdsdatabasestackdev-musepostegresdb7c7399eb-bpea3lf2piue.cx6jkfcjvffe.us-east-1.rds.amazonaws.com.
+
+my vpc security group is MuseRdsDatabaseStackDEV-MusePostegresDBSecurityGroup6DEB9B6E-Bq9jjRfSpqvL (sg-06b827257888dd324)
+
+and the vpc is Availability Zone
+us-east-1a
+VPC
+muse-vpc-dev (vpc-0e98b1b9896aa031f)
+Subnet group
+muserdsdatabasestackdev-musepostegresdbsubnetgroup9cd06f0c-n1gfjme6t2rn
+Subnets
+subnet-035dc8da994fa2827
+subnet-05899495872fdee55
+
+the s3 bucket is a general purpose bucket named
+checkboostinfo. the access point is named checkboostinfos3accesspoint and the alias is checkboostinfos3acce-fg9nikokxdkfojs7sdy6iaaj7978wuse1b-s3alias
+
+please let me know any other information you need to write the scripts and where i can get it from.
+
+i can't use dms because of my vpc
+
+------------------------------
+
+give me step by step instructions and how to create an RDS connection in the AWS Glue console or using the AWS CLI before running this script.
+
+also, i want you to rewrite this code so i can copy and paste it knowing that the db username is museplatformdb, and also tell me where i can find the other information i need to complete this script is
+
