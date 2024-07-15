@@ -8,63 +8,78 @@ def summarize_script(file_path):
             content = file.read()
         
         tree = ast.parse(content)
-        summary = f"Summary of {os.path.basename(file_path)}:\n"
+        summary = []
         
         for node in ast.walk(tree):
             if isinstance(node, ast.FunctionDef):
-                summary += f"- Function: {node.name}\n"
+                summary.append(f"Function: {node.name}")
             elif isinstance(node, ast.ClassDef):
-                summary += f"- Class: {node.name}\n"
+                summary.append(f"Class: {node.name}")
         
-        return summary
+        return summary if summary else ["No functions or classes found"]
     except Exception as e:
-        return f"Unable to summarize {os.path.basename(file_path)}: {str(e)}"
+        return [f"Unable to summarize: {str(e)}"]
 
 def summarize_readme(file_path):
     try:
         with open(file_path, 'r') as file:
             content = file.read()
         
-        # Remove Markdown headers
         content = re.sub(r'#+\s', '', content)
-        # Remove Markdown links
         content = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', content)
-        # Remove code blocks
         content = re.sub(r'```[\s\S]*?```', '', content)
         
-        summary = "README Summary:\n"
-        summary += "\n".join(line.strip() for line in content.split('\n') if line.strip())
-        return summary
+        summary = ' '.join(line.strip() for line in content.split('\n') if line.strip())
+        return summary[:500] + "..." if len(summary) > 500 else summary
     except Exception as e:
-        return f"Unable to summarize README file: {str(e)}"
+        return f"Unable to summarize README: {str(e)}"
 
 def process_repository(repo_path):
-    result = ""
+    structure = {}
+    readmes = []
+    script_summaries = {}
     
     for root, dirs, files in os.walk(repo_path):
+        rel_dir = os.path.relpath(root, repo_path)
+        if rel_dir == '.':
+            rel_dir = 'root'
+        
+        structure[rel_dir] = []
         for file in files:
-            file_path = os.path.join(root, file)
-            relative_path = os.path.relpath(file_path, repo_path)
-            result += f"\nFile: {relative_path}\n"
-            
-            if file.endswith('.py'):
-                result += summarize_script(file_path) + "\n"
-            elif file.lower() in ['readme', 'readme.md', 'readme.txt']:
-                result += summarize_readme(file_path) + "\n"
+            if file.lower() in ['readme', 'readme.md', 'readme.txt']:
+                readmes.append((rel_dir, summarize_readme(os.path.join(root, file))))
+            elif file.endswith('.py'):
+                summary = summarize_script(os.path.join(root, file))
+                if summary != ["No functions or classes found"]:
+                    script_summaries[f"{rel_dir}/{file}"] = summary
+            structure[rel_dir].append(file)
+    
+    result = "Repository Structure:\n"
+    for dir, files in structure.items():
+        result += f"{dir}/\n"
+        for file in files:
+            result += f"  {file}\n"
+    
+    result += "\nREADME Summaries:\n"
+    for dir, summary in readmes:
+        result += f"{dir} README: {summary}\n\n"
+    
+    result += "\nScript Summaries:\n"
+    for script, summary in script_summaries.items():
+        result += f"{script}:\n"
+        for item in summary:
+            result += f"  {item}\n"
+        result += "\n"
     
     return result
 
 if __name__ == "__main__":
-    # Get the current script's directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Navigate up one level to the main repository directory
     repo_path = os.path.dirname(current_dir)
     
     output = process_repository(repo_path)
     print(output)
 
-    # Save the output to a file in the same directory as the script
     output_file = os.path.join(current_dir, 'repo_summary.txt')
     with open(output_file, 'w') as f:
         f.write(output)
