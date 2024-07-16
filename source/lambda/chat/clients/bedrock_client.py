@@ -31,36 +31,10 @@ metrics = get_metrics_client(CloudWatchNamespaces.COLD_STARTS)
 
 
 class BedrockClient(LLMChatClient):
-    """
-    Class that allows building a Bedrock LLM client that is used to generate content.
-
-    Attributes:
-        llm_model (BaseLangChainModel): The LLM model which is used for generating content. For Bedrock provider, this is BedrockLLM or
-            BedrockRetrievalLLM
-        llm_config (Dict): Stores the configuration that the admin sets on a use-case, fetched from SSM Parameter store
-        rag_enabled (bool): Whether or not RAG is enabled for the use-case
-        connection_id (str): The connection ID for the websocket client
-
-    Methods:
-        check_env(List[str]): Checks if the environment variable list provided, along with other required environment variables, are set.
-        check_event(event: Dict): Checks if the event it receives is empty.
-        get_llm_config(): Retrieves the configuration that the admin sets on a use-case from the SSM Parameter store
-        construct_chat_model(): Constructs the Chat model based on the event and the LLM configuration as a series of steps on the builder
-        get_event_conversation_id(): Returns the conversation_id for the event
-        get_model(): Retrieves the LLM model that is used to generate content
-    """
-
     def __init__(self, connection_id: str, rag_enabled: bool) -> None:
         super().__init__(connection_id=connection_id, rag_enabled=rag_enabled)
 
     def get_model(self, event_body: Dict, user_id: UUID) -> Union[BedrockLLM, BedrockRetrievalLLM]:
-        """
-        Retrieves the Bedrock client.
-
-        :param event (Dict): The AWS Lambda event
-        Returns:
-            BedrockLLM: The Bedrock LLM model that is used to generate content.
-        """
         super().get_model(event_body)
 
         self.builder = BedrockBuilder(
@@ -69,7 +43,7 @@ class BedrockClient(LLMChatClient):
             conversation_id=event_body[CONVERSATION_ID_EVENT_KEY],
             rag_enabled=self.rag_enabled,
         )
-        model_name = self.llm_config.get("LlmParams", {}).get("ModelId", None)
+        model_name = self.llm_config.get("LlmParams", {}).get("ModelId", "anthropic.claude-3-5-sonnet-20240620-v1:0")
         self.construct_chat_model(user_id, event_body, LLMProviderTypes.BEDROCK.value, model_name)
         return self.builder.llm_model
 
@@ -77,18 +51,6 @@ class BedrockClient(LLMChatClient):
     def construct_chat_model(
         self, user_id: str, event_body: Dict, llm_provider: LLMProviderTypes, model_name: str
     ) -> None:
-        """Constructs the chat model using the builder object that is passed to it. Acts like a Director for the builder.
-
-        Args:
-            user_id (str): cognito id of the user
-            conversation_id (str): unique id of the conversation (used to reference the correct conversation memory)
-            llm_provider (LLMProviderTypes): name of the LLM provider
-            model_name (str): name of the model to use for the LLM. It should be a model name supported by the family of
-                models supported by llm_provider
-        Raises:
-            ValueError: If builder is not set up for the client
-            ValueError: If missing required params
-        """
         conversation_id = event_body.get(CONVERSATION_ID_EVENT_KEY)
         if user_id and conversation_id:
             if not self.builder:

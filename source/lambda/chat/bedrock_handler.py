@@ -38,12 +38,6 @@ metrics = get_metrics_client(CloudWatchNamespaces.COLD_STARTS)
 @tracer.capture_lambda_handler
 @metrics.log_metrics(capture_cold_start_metric=True)
 def lambda_handler(event: Dict[str, Any], context: LambdaContext) -> Dict:
-    """Create a Bedrock RAG or non-RAG LLM object based on the configuration in `event` and
-    admin configuration and use it to answer user questions
-    :param event (Dict): AWS Lambda Event
-    :param context (LambdaContext): AWS Lambda Context
-    :return: the generated response from the chatbot
-    """
     try:
         bedrock_client = BedrockClient(
             connection_id=event["requestContext"]["connectionId"],

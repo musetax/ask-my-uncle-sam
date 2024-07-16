@@ -35,9 +35,6 @@ import {
 } from './utils/constants';
 import { VPCSetup } from './vpc/vpc-setup';
 
-/**
- * The main stack creating the chat use case infrastructure
- */
 export class BedrockChat extends UseCaseChat {
     constructor(scope: Construct, id: string, props: BaseStackProps) {
         super(scope, id, props);
@@ -54,9 +51,6 @@ export class BedrockChat extends UseCaseChat {
         });
     }
 
-    /**
-     * Provisions the llm provider lambda, and sets it to member variable chatLlmProviderLambda
-     */
     public llmProviderSetup(): void {
         this.chatLlmProviderLambda = new lambda.Function(this, 'ChatLlmProviderLambda', {
             code: lambda.Code.fromAsset(
@@ -90,7 +84,7 @@ export class BedrockChat extends UseCaseChat {
         this.chatLlmProviderLambda.addToRolePolicy(
             new cdk.aws_iam.PolicyStatement({
                 actions: ['bedrock:InvokeModel', 'bedrock:InvokeModelWithResponseStream'],
-                resources: [`arn:${cdk.Aws.PARTITION}:bedrock:${cdk.Aws.REGION}::foundation-model/*`]
+                resources: [`arn:${cdk.Aws.PARTITION}:bedrock:${cdk.Aws.REGION}::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0`]
             })
         );
 
@@ -106,9 +100,9 @@ export class BedrockChat extends UseCaseChat {
             [
                 {
                     id: 'AwsSolutions-IAM5',
-                    reason: 'This lambda is granted permissions to invoke any bedrock model, which requires the *.',
+                    reason: 'This lambda is granted permissions to invoke the specific Claude 3.5 Sonnet model.',
                     appliesTo: [
-                        'Resource::arn:<AWS::Partition>:bedrock:<AWS::Region>::foundation-model/*',
+                        'Resource::arn:<AWS::Partition>:bedrock:<AWS::Region>::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0',
                         'Resource::arn:<AWS::Partition>:bedrock:<AWS::Region>:<AWS::AccountId>:guardrail/*',
                         'Resource::*'
                     ]

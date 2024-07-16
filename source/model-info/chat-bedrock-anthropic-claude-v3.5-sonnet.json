@@ -1,11 +1,11 @@
 {
     "UseCase": "Chat",
     "ModelProviderName": "Bedrock",
-    "ModelName": "anthropic.claude-3-sonnet-20240229-v1:0",
+    "ModelName": "anthropic.claude-3-5-sonnet-20240620-v1:0",
     "AllowsStreaming": true,
     "Prompt": "\n\nHuman: You are a friendly AI assistant that is helpful, honest, and harmless.\n\nHere is the current conversation:\n{history}\n\n{input}\n\nAssistant:",
     "MaxTemperature": "1",
-    "DefaultTemperature": "1",
+    "DefaultTemperature": "0.7",
     "MinTemperature": "0",
     "DefaultStopSequences": [],
     "MemoryConfig": {
@@ -16,6 +16,7 @@
         "human_prefix": "H",
         "output": null
     },
-    "MaxPromptSize": 375000,
-    "MaxChatMessageSize": 375000
+    "MaxPromptSize": 200000,
+    "MaxChatMessageSize": 200000
 }
+    
