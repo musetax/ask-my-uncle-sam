@@ -1,6 +1,6 @@
 botocore
 boto3
-langchain==0.0.330
+langchain==0.2.3
 streamlit
 pandas
 chromadb==0.4.14
