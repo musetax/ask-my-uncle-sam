@@ -1,0 +1,1782 @@
+Repository Structure:
+root/
+  CODE_OF_CONDUCT.md
+  .DS_Store
+  LICENSE
+  README.md
+  .gitignore
+  CONTRIBUTING.md
+bedrock-fine-tuning/
+  README.md
+bedrock-fine-tuning/amazon-titan-image-generator/
+  README.md
+  1-TIGFT-customization-job.ipynb
+  2-TIGFT-provisioned-throughput-inference.ipynb
+bedrock-fine-tuning/amazon-titan-image-generator/prompts/
+  captions.json
+bedrock-fine-tuning/amazon-titan-image-generator/data/
+  smila_07.jpg
+  smila_13.jpg
+  smila_12.jpg
+  smila_06.jpg
+  smila_10.jpg
+  smila_04.jpg
+  smila_05.jpg
+  smila_11.jpg
+  smila_15.jpg
+  smila_01.jpg
+  smila_29.jpg
+  smila_28.jpg
+  smila_14.jpg
+  smila_02.jpg
+  smila_16.jpg
+  smila_17.jpg
+  smila_03.jpg
+  ron_14.jpg
+  ron_28.jpg
+  ron_29.jpg
+  ron_15.jpg
+  ron_01.jpg
+  ron_17.jpg
+  ron_03.jpg
+  ron_02.jpg
+  ron_16.jpg
+  ron_12.jpg
+  ron_06.jpg
+  smila_ft_2.png
+  ron_07.jpg
+  ron_13.jpg
+  ron_05.jpg
+  ron_11.jpg
+  smila_ft_1.png
+  ron_10.jpg
+  ron_04.jpg
+  ron_21.jpg
+  ron_09.jpg
+  ron_08.jpg
+  ron_20.jpg
+  ron_22.jpg
+  ron_23.jpg
+  ron_27.jpg
+  ron_ft_2.png
+  ron_26.jpg
+  ron_18.jpg
+  ron_24.jpg
+  ron_30.jpg
+  ron_ft_1.png
+  ron_25.jpg
+  ron_19.jpg
+  smila_26.jpg
+  smila_27.jpg
+  smila_19.jpg
+  smila_25.jpg
+  smila_24.jpg
+  smila_30.jpg
+  smila_18.jpg
+  smila_20.jpg
+  smila_08.jpg
+  smila_09.jpg
+  smila_21.jpg
+  smila_23.jpg
+  smila_22.jpg
+bedrock-fine-tuning/meta-llama/
+  README.md
+  02_fine-tune_and_evaluate_llama2_bedrock_summarization.ipynb
+  00_setup.ipynb
+  03_cleanup.ipynb
+function-calling/
+  legacy-function-calling-with-Claude.ipynb
+  create_athena_catalog.py
+  advanced_fn_calling_w_claude3.ipynb
+  Migrating_from_OAI_Bedrock_converse.ipynb
+  tool_use_with_pydantic_Bedrock_converse.ipynb
+  README.md
+  fc_pydantic_class_converse_bedrock.py
+  function_calling_text2SQL_converse_bedrock_streamlit.py
+  Extracting_structured_json_Bedrock_converse.ipynb
+  fc_migrations_converse_bedrock_streamlit.py
+  Anthropic_cookbook_extracting_structured_json_Bedrock_converse.ipynb
+  function_calling_converse_bedrock_streamlit.py
+  Function_calling_tool_use_with_Converse_API.ipynb
+function-calling/images/
+  bedrock.png
+  weather.jpg
+  AWS_logo_RGB.png
+agents-for-bedrock/
+  README.md
+agents-for-bedrock/use-case-examples/
+agents-for-bedrock/use-case-examples/product-review-agent/
+  main.ipynb
+  requirements.txt
+  README.md
+  agent.py
+  app.py
+  main.py
+agents-for-bedrock/use-case-examples/product-review-agent/architecture/
+  architecture.jpeg
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/
+  CODE_OF_CONDUCT.md
+  LICENSE
+  README.md
+  CONTRIBUTING.md
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/design/
+  total-claim-amount-asset.png
+  streamlit-app.png
+  send-reminder-email.png
+  kb-console-testing.png
+  agent-kb-configuration.png
+  agent-prepared-banner.png
+  ag-configuration.png
+  send-reminder.png
+  kb-ds-s3-configuration.png
+  agent-console-testing.png
+  kb-embeddings.png
+  agent-overview.png
+  kb-select-model.png
+  existing-claims-table.png
+  demo-thumbnail.png
+  agent-configuration.png
+  ag-tracing.png
+  create-new-claim.png
+  agent-creation-banner.png
+  agent-console-example.png
+  kb-ds-overview.png
+  existing-claims-table-2.png
+  kb-console-2.png
+  repair-estimate.png
+  agent-prepare.png
+  kb-configuration.png
+  kb-console-1.png
+  kb-tracing.png
+  agent-console-example-2.png
+  agent-console-1.png
+  kb-overview.png
+  total-claim-amount-prompt.png
+  ag-openapi.png
+  agent-console-2.png
+  agent-console-3.png
+  kb-creation-banner.png
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/documentation/
+  deployment-guide.md
+  testing-and-validation.md
+  clean-up.md
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/shell/
+  delete-customer-resources.sh
+  create-customer-resources.sh
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/streamlit/
+  bedrock_streamlit.py
+  requirements.txt
+  sigv4.py
+  setup-streamlit-env.sh
+  bedrock_logo.png
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/knowledge-base-assets/
+  Claim_2s34w-8x_Amounts.pdf.metadata.json
+  AccidentReport_file_requirements.docx.metadata.json
+  AccidentImages_file_requirements.docx.metadata.json
+  Claim_2s34w-8x_RepairEstimate.pdf
+  Claim_3b45c-9d_Amounts.pdf.metadata.json
+  Claim_5t16u-7v_Amounts.pdf
+  Claim_3b45c-9d_RepairEstimate.pdf
+  Claim_2s34w-8x_RepairEstimate.pdf.metadata.json
+  AccidentImages_file_requirements.docx
+  Internal-Insurance-FAQs.xlsx
+  External-Insurance-FAQs.xlsx.metadata.json
+  Claim_5t16u-7v_RepairEstimate.pdf.metadata.json
+  Claim_5t16u-7v_Amounts.pdf.metadata.json
+  Driverlicense_file_requirements.docx.metadata.json
+  Driverlicense_file_requirements.docx
+  External-Insurance-FAQs.xlsx
+  Claim_3b45c-9d_RepairEstimate.pdf.metadata.json
+  Internal-Insurance-FAQs.xlsx.metadata.json
+  Claim_5t16u-7v_RepairEstimate.pdf
+  VehicleRegistration_file_requirements.docx
+  VehicleRegistration_file_requirements.docx.metadata.json
+  Claim_2s34w-8x_Amounts.pdf
+  Claim_3b45c-9d_Amounts.pdf
+  AccidentReport_file_requirements.docx
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/lambda/
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/lambda/data-loader/
+  index.py
+  loader_deployment_package.zip
+  claims.json
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/lambda/action-groups/
+  send_reminder.py
+  gather_evidence.py
+  create_claim.zip
+  send_reminder.zip
+  gather_evidence.zip
+  create_claim.py
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/lambda/lambda-layer/
+  cfnresponse-layer.zip
+  bedrock-agents-layer.zip
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/api-schema/
+  send_reminder.json
+  gather_evidence.json
+  create_claim.json
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/cfn/
+  bedrock-customer-resources.yml
+agents-for-bedrock/use-case-examples/ai-powered-assistant-for-investment-research/
+  cloudformation.yaml
+  CODE_OF_CONDUCT.md
+  LICENSE
+  README.md
+  CONTRIBUTING.md
+agents-for-bedrock/use-case-examples/ai-powered-assistant-for-investment-research/images/
+  upload_files.png
+  open_jupyter_instance.png
+  converted_pdffiles_s3.png
+  specify_stack_details.png
+  audio_output.png
+  ag8.png
+  ag11.png
+  bedrock-access2.JPG
+  ag10.png
+  ag9.png
+  stack_resources.png
+  output_bucket.png
+  studio-new-launcher.png
+  architecture-diagram.png
+  create_stack.png
+  kb3.png
+  kb2.png
+  pdf_output.png
+  bedrock-access.jpg
+  kb1.png
+  create_folder.png
+  files_uploaded.png
+  kb5.png
+  kb4.png
+  kb6.png
+  kb7.png
+  ag7.png
+  sg-rules.PNG
+  create_bucket.png
+  ag6.png
+  ag4.png
+  ag5.png
+  open_cloudshell.png
+  ag1.png
+  converted_audiofiles_s3.png
+  upload_stack.png
+  ag0.png
+  enter_folder_name.png
+  ag2.png
+  select_files.png
+  ag3.png
+agents-for-bedrock/use-case-examples/ai-powered-assistant-for-investment-research/files/
+  Amazon-Quarterly-Earnings-Report-Q1-2023-Full-Call-v1.mp3
+  openapi_stock_query.json
+  FSI-StockQuery-BedrockAgent-4bed2482-a84f-4d9b-b53c-37220fd4b9bb.zip
+  FSI-TextractProcessingFunction-b6054c5e-0286-4cfb-a2f3-55d408a9972c.zip
+  openapi_portfolio.json
+  openapi_sentiment.json
+  Amazon-10K-2022-EarningsReport.pdf
+  stock_prices.csv
+  FSI-SentimentDetecttion-BedrockAgent-6aebee60-d2df-464c-b652-b93e2aef7b3a.zip
+  FSI-TextractAsyncInvocationFunction-759363ea-7b4b-411c-a96f-b137a595387b.zip
+  agents-layer-porfolio.zip
+  FSI-Transcribe-66a4860d-390a-4af5-aa1b-05fb469be7ac.zip
+  openapi_keyphrases.json
+  FSI-KeyPhrasesDetection-BedrockAgent-21b0f3b8-f981-4db6-a0ce-606a13e9c35f.zip
+  Amazon-10Q-Q1-2023-QuaterlyEarningsReport.pdf
+  agents-layer-stock-query.zip
+  FSI-PortfolioTool-BedrockAgent-9a4cdb9f-14b9-4658-9720-537735bf2b1c.zip
+agents-for-bedrock/use-case-examples/text-2-sql-agent/
+  README.md
+  create_and_invoke_sql_agent.ipynb
+  lambda_function.py
+agents-for-bedrock/use-case-examples/text-2-sql-agent/images/
+  text-to-sql-architecture-Athena.png
+agents-for-bedrock/use-case-examples/text-2-sql-agent/dependencies/
+  config.py
+  clean.py
+  build_infrastructure.py
+  text_to_sql_openapi_schema.json
+agents-for-bedrock/use-case-examples/text-2-sql-agent/data/
+  TheHistoryofBaseball.zip
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/
+  requirements.txt
+  Dockerfile
+  deploy.yaml
+  README.md
+  app.py
+  infrastructure.yaml
+  codepipeline.yaml
+  architecture.png
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/util/
+  __init__.py
+  bedrock.py
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/src/
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/src/bedrock-agent/
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/src/bedrock-agent/basic/
+  crm-bot-lambda.py
+  crm-bot-lambda.zip
+  crm_schema.json
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/src/bedrock-agent/jira/
+  crm-bot-lambda.py
+  crm-bot-lambda.zip
+  crm_schema.json
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/src/data/
+  data.zip
+  interactions.png
+  prompt.py
+  upload_data.py
+  customers.png
+agents-for-bedrock/use-case-examples/agentsforbedrock-retailagent/
+  csbot_agent.py
+  customerservicebot.json
+  README.md
+  csbot_agent_template.yml
+agents-for-bedrock/use-case-examples/agentsforbedrock-retailagent/workshop/
+  test_retailagent_agentsforbedrock.ipynb
+agents-for-bedrock/use-case-examples/agentsforbedrock-retailagent/img/
+  ML-15539-sequence-flow-agents.png
+  ML-15539-agent-trace1.png
+  ML-15539-AgentsBlog.drawio
+  ML-15539-agents-menu.png
+  ML-15539-agent-model.png
+  ML-15539-agent-trace2.png
+  ML-15539-agent-trace3.png
+  ML-15539-cfn-launch-stack.png
+  ML-15539-agent-test.png
+  ML-15539-cfn-stack-delete.png
+  ML-15539-agent-action-groups.png
+  ML-15539-agent-alias.png
+  ML-15539-agent-response.png
+  ML-15539-agent-details.png
+agents-for-bedrock/use-case-examples/agentsforbedrock-retailagent/open-api-spec/
+  customerservicebot.json
+agents-for-bedrock/use-case-examples/agentsforbedrock-retailagent/data/
+  demo_csbot_db
+agents-for-bedrock/use-case-examples/hr-assistant/
+  CODE_OF_CONDUCT.md
+  LICENSE
+  README.md
+  CONTRIBUTING.md
+agents-for-bedrock/use-case-examples/hr-assistant/documentation/
+  deployment-guide.md
+  clean-up.md
+agents-for-bedrock/use-case-examples/hr-assistant/streamlit/
+  requirements.txt
+  agent_streamlit.py
+agents-for-bedrock/use-case-examples/hr-assistant/imgs/
+  15_streamlit.png
+  00_youtube_thumbnail.png
+  12_agent_working_draft.png
+  03_kb_review.png
+  11_agent_overview.png
+  04_kb_creation_banner.png
+  14_testing.png
+  13_create_alias.png
+  05_kb_data_sync.png
+  10_associated_actions_withkb.png
+  01_cfn_resources.png
+  06_kb_id.png
+  01_agent-overview.png
+  09_associated_actions.png
+  08_hr_agent.png
+  07_kb_ds_id.png
+  02_kb_data_source.png
+agents-for-bedrock/use-case-examples/hr-assistant/shell/
+  delete-hr-resources.sh
+  create-hr-resources.sh
+agents-for-bedrock/use-case-examples/hr-assistant/agent/
+agents-for-bedrock/use-case-examples/hr-assistant/agent/knowledge-base-assets/
+  pay-february.json
+  Aglaia_Benefit_Policy.pdf
+  pay-january.json
+agents-for-bedrock/use-case-examples/hr-assistant/agent/lambda/
+  index.py
+  calendar_integration.py
+  athena_sql_query.py
+  __init__.py
+  hr_function.zip
+  generate_image.py
+  email_integration.py
+  slack_integration.py
+agents-for-bedrock/use-case-examples/hr-assistant/agent/api-schema/
+  action-groups.txt
+  slack-action-group.json
+  send-email-action-group.json
+  calendar-action-group.json
+  sql-action-group.json
+  calendar-availability-action-group.json
+  generate-image-action-group.json
+agents-for-bedrock/use-case-examples/hr-assistant/cfn/
+  hr-resources.yml
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/
+  setup.sh
+  requirements.txt
+  cdk.json
+  claude_3.py
+  agent_instruction_generator.py
+  Prep_Data.py
+  Readme.md
+  package-lock.json
+  package.json
+  text_to_sql_openapi_schema.json
+  app.py
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/lambda/
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/lambda/agent/
+  index.py
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/Data/
+  EV_WA.zip
+agents-for-bedrock/features-examples/
+  README.md
+agents-for-bedrock/features-examples/06-prompt-and-session-attributes/
+  06-prompt-and-session-attributes.ipynb
+  README.md
+agents-for-bedrock/features-examples/07-advanced-prompts-and-custom-parsers/
+  07-custom-prompt-and-lambda-parsers.ipynb
+  README.md
+agents-for-bedrock/features-examples/02-create-agent-with-api-schema/
+  02-create-agent-with-api-schema.ipynb
+  insurance_claims_agent_openapi_schema.json
+  README.md
+  lambda_function.py
+agents-for-bedrock/features-examples/02-create-agent-with-api-schema/images/
+  architecture.png
+agents-for-bedrock/features-examples/03-create-agent-with-return-of-control/
+  README.md
+  03-create-agent-with-return-of-control.ipynb
+agents-for-bedrock/features-examples/03-create-agent-with-return-of-control/images/
+  HR_DB.png
+  architecture.png
+agents-for-bedrock/features-examples/05-create-agent-with-knowledge-base-and-action-group/
+  knowledge_base.py
+  requirements.txt
+  README.md
+  agent.py
+  05-create-agent-with-knowledge-base-and-action-group.ipynb
+  agenteval.yml
+agents-for-bedrock/features-examples/05-create-agent-with-knowledge-base-and-action-group/images/
+  architecture.png
+agents-for-bedrock/features-examples/05-create-agent-with-knowledge-base-and-action-group/dataset/
+  Restaurant_Childrens_Menu.pdf
+  Restaurant_Dinner_Menu.pdf
+  Restaurant_week_specials.pdf
+agents-for-bedrock/features-examples/04-create-agent-with-single-knowledge-base/
+  agents-with-kb.png
+  README.md
+  04-create-agent-with-single-knowledge-base.ipynb
+agents-for-bedrock/features-examples/04-create-agent-with-single-knowledge-base/kb_documents/
+  bedrock-ug.pdf
+agents-for-bedrock/features-examples/04-create-agent-with-single-knowledge-base/images/
+  architecture.png
+agents-for-bedrock/features-examples/10-create-agent-with-memory/
+  10-create-agent-with-memory.ipynb
+  README.md
+agents-for-bedrock/features-examples/10-create-agent-with-memory/images/
+  architecture.png
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/
+  template.yaml
+  README.md
+  .gitignore
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/005_Frontend/
+  .gitignore
+  package.json
+  amplify-headless-init-payload.json
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/005_Frontend/public/
+  index.html
+  manifest.json
+  robots.txt
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/005_Frontend/src/
+  reportWebVitals.js
+  App.css
+  index.js
+  index.css
+  aws-exports.tmplt.js
+  App.test.js
+  setupTests.js
+  App.js
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/001_avp/
+  template.yaml
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/images/
+  claims-invoke-bedrock-agent.png
+  claims-app.png
+  bedrock-model-access.png
+  Architecture_AVP_bedrock_agents.jpg
+  claims-actiongroup-lambda.png
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/003_bedrock-agent/
+  template.yaml
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/003_bedrock-agent/agent/
+  requirements.txt
+  agent.py
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/004_apigateway/
+  template.yaml
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/004_apigateway/invoke-lambda/
+  requirements.txt
+  invoke_lambda.py
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/002_cognito/
+  template.yaml
+agents-for-bedrock/features-examples/01-create-agent-with-function-definition/
+  README.md
+  01-create-agent-with-function-definition.ipynb
+agents-for-bedrock/features-examples/01-create-agent-with-function-definition/images/
+  HR_DB.png
+  architecture.png
+prompt-engineering/
+  Prompt Decomposition.ipynb
+  README.md
+  Prompt Evaluation.ipynb
+prompt-engineering/session-4/
+  Setup.ipynb
+  requirements.txt
+  Chat_application.ipynb
+  Function_agent.ipynb
+prompt-engineering/session-4/faiss-diy/
+  index.faiss
+  index.pkl
+prompt-engineering/session-4/images/
+  embeddings_lang.png
+  chatbot_bedrock.png
+  terminal.png
+  chatbot_lang.png
+  vector_embedding.png
+  api.png
+  context-aware-chatbot.png
+  vector_db.jpg
+prompt-engineering/session-4/multimodal/
+  README.md
+prompt-engineering/session-4/multimodal/images/
+  titan-embeddings-g1-image.png
+prompt-engineering/session-4/multimodal/faiss-multimodal/
+  mm_search.ipynb
+  README.md
+  utils.py
+  CONTRIBUTING.md
+  LICENSE.txt
+prompt-engineering/session-4/multimodal/faiss-multimodal/images/
+  departure_rate.jpg
+  contextual_search_arch.png
+prompt-engineering/session-4/multimodal/faiss-multimodal/data/
+prompt-engineering/session-4/multimodal/faiss-multimodal/data/images/
+  ea0c6da6.jpg
+  075e5d67.jpg
+prompt-engineering/session-4/data/
+prompt-engineering/session-4/data/letter/
+  2022.txt
+prompt-engineering/session-4/data/book/
+  book.txt
+prompt-engineering/session-4/data/sagemaker/
+  sm_faq_v2.csv
+  sagemaker_faqs.csv
+prompt-engineering/session-4/faiss-index/
+prompt-engineering/session-4/faiss-index/llama-index/
+  vector_store.json
+  graph_store.json
+  index_store.json
+  docstore.json
+prompt-engineering/session-4/faiss-index/langchain/
+  index.faiss
+  index.pkl
+prompt-engineering/images/
+  prompt_engineering.png
+introduction-to-bedrock/
+  bedrock_anthropic_claude3.py
+  bedrock_stability.py
+  model_choice_converse_bedrock_streamlit.py
+  bedrock_amazon_titan_embeddings.py
+  bedrock_api.py
+  bedrock_mixtral.py
+  Getting_started_with_Converse_API.ipynb
+  getting_started_converse_bedrock_streamlit.py
+  README.md
+  bedrock_amazon_titan_text.py
+  bedrock_cohere.py
+  bedrock_anthropic.py
+  cat.png
+  bedrock_mistral.py
+  Getting_started_with_Prompt_Management_Flows.ipynb
+  bedrock_meta.py
+  bedrock_sdk.py
+  model-choice-demo-converse-api.py
+  bedrock_streaming.py
+  Claude-MessagesAPI-Examples.ipynb
+  bedrock_ai21.py
+introduction-to-bedrock/images/
+  bedrock.png
+  bedrock_models.png
+introduction-to-bedrock/create_your_first_bedrock_application/
+  README.md
+  GettingStartedWithAmazonBedrock.ipynb
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock/
+  requirements.txt
+  README.md
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock/cdk-app/
+  requirements.txt
+  cdk.json
+  source.bat
+  .gitignore
+  app.py
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock/cdk-app/lambdas/
+  bedrock_boto3_layer.zip
+  build_lambda_layer.sh
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock/cdk-app/lambdas/process_emails_with_bedrock/
+  lambda.py
+  prompt.txt
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock/cdk-app/cdk_app/
+  __init__.py
+  cdk_app_stack.py
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock/manual_steps/
+  4-create-rule-step-2.png
+  3-create-rule-step-1.png
+  2-activate-rule-set.png
+  5-create-rule-step-3-add-action.png
+  7-create-rule-complete.png
+  1-email-receiving-create-rule-set.png
+  6-create-rule-step-3-choose-sns-topic.png
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/
+  requirements.txt
+  Makefile
+  cdk.json
+  source.bat
+  README.md
+  requirements-dev.txt
+  app.py
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/process_dynamodb_table_bedrock/
+  __init__.py
+  process_dynamodb_table_bedrock_stack.py
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/process_dynamodb_table_bedrock/cdk_helper_scripts/
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/process_dynamodb_table_bedrock/cdk_helper_scripts/zipimage/
+  Dockerfile
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/process_dynamodb_table_bedrock/populate_dynamodb_table/
+  emails.csv
+  lambda_function.py
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/process_dynamodb_table_bedrock/process_dynamodb_table_bedrock_lambda/
+  prompt.txt
+  lambda_function.py
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/images/
+  extracted_info_details.png
+  tables_menu1.png
+  email-processing-app.png
+  tables_list.png
+  navigate_lambda.png
+  lambda_outputs.png
+  table_items.png
+  architecture_diagram.png
+  extracted_information.png
+  test_event.png
+  navigate_dynamodb.png
+  test_button.png
+  explore_items.png
+introduction-to-bedrock/java/
+  README.md
+introduction-to-bedrock/java/my-app/
+  pom.xml
+introduction-to-bedrock/java/my-app/src/
+introduction-to-bedrock/java/my-app/src/main/
+introduction-to-bedrock/java/my-app/src/main/java/
+introduction-to-bedrock/java/my-app/src/main/java/com/
+introduction-to-bedrock/java/my-app/src/main/java/com/mycompany/
+introduction-to-bedrock/java/my-app/src/main/java/com/mycompany/app/
+  App.java
+model-evals/
+model-evals/llm-as-a-judge/
+  1_get_inference.ipynb
+  LICENSE
+  requirements.txt
+  config.yaml
+  README.md
+  main.py
+  2_run_llm_as_a_judge_eval.ipynb
+model-evals/llm-as-a-judge/img/
+  llm_as_a_judge.png
+  llm_as_a_judge.drawio
+model-evals/llm-as-a-judge/eval_completions/
+model-evals/llm-as-a-judge/eval_completions/9/
+model-evals/llm-as-a-judge/eval_completions/9/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_9.json
+model-evals/llm-as-a-judge/eval_completions/0/
+model-evals/llm-as-a-judge/eval_completions/0/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_0.json
+model-evals/llm-as-a-judge/eval_completions/7/
+model-evals/llm-as-a-judge/eval_completions/7/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_7.json
+model-evals/llm-as-a-judge/eval_completions/6/
+model-evals/llm-as-a-judge/eval_completions/6/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_6.json
+model-evals/llm-as-a-judge/eval_completions/1/
+model-evals/llm-as-a-judge/eval_completions/1/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_1.json
+model-evals/llm-as-a-judge/eval_completions/8/
+model-evals/llm-as-a-judge/eval_completions/8/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_8.json
+model-evals/llm-as-a-judge/eval_completions/4/
+model-evals/llm-as-a-judge/eval_completions/4/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_4.json
+model-evals/llm-as-a-judge/eval_completions/3/
+model-evals/llm-as-a-judge/eval_completions/3/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_3.json
+model-evals/llm-as-a-judge/eval_completions/2/
+model-evals/llm-as-a-judge/eval_completions/2/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_2.json
+model-evals/llm-as-a-judge/eval_completions/5/
+model-evals/llm-as-a-judge/eval_completions/5/meta.llama3-70b-instruct-v1-0/
+  model_evaluation_5.json
+model-evals/llm-as-a-judge/data/
+model-evals/llm-as-a-judge/data/source_data/
+  data.csv
+  data_user_system_prompt_version.csv
+model-evals/llm-as-a-judge/data/prompt_template/
+  claude_inference_prompt_template.txt
+  llama3_eval_prompt.txt
+  claude_final_summary_prompt.txt
+  claude_eval_prompt.txt
+model-evals/llm-as-a-judge/data/results/
+  final_analysis.txt
+  processed_eval_prompts.csv
+  llm_as_a_judge_comparisons.txt
+  llm_as_a_judge_pick_rate.csv
+  llm_as_a_judge_comparisons.csv
+  inference_latency_summary.txt
+  all_explanations.txt
+  all_results.csv
+rag-solutions/
+  README.md
+rag-solutions/contextual-chatbot-using-knowledgebase/
+  README.md
+rag-solutions/contextual-chatbot-using-knowledgebase/streamlit/
+  chatbot.py
+rag-solutions/contextual-chatbot-using-knowledgebase/images/
+  kb-vectorstore.jpg
+  lambda-layer.jpg
+  kb-syncing.png
+  kb-syncing.jpg
+  kb-body.jpg
+  streamlit-filled.jpg
+  bedrock-left.jpg
+  kb-details.jpg
+  cfn-body.jpg
+  share-holders.jpg
+  architecture_1.jpg
+  share-holders.png
+  cfn-specify.jpg
+  architecture_2.jpg
+  kb-datasource.jpg
+  kb-readysync.jpg
+  streamlit-filled-withanswer.png
+  streamlit-blank.jpg
+  kb-ready.jpg
+  kb-ready.png
+  kb-review.jpg
+  cfn-create.jpg
+  s3-objects.jpg
+  kb-sync.jpg
+rag-solutions/contextual-chatbot-using-knowledgebase/cfn/
+  DeployKnowledgeBase.yaml
+rag-solutions/contextual-chatbot-using-knowledgebase/lambda/
+  bedrock-kb-retrieveAndGenerate.py
+rag-solutions/contextual-chatbot-using-knowledgebase/lambda/layer/
+  knowledgebase_lambdalayer.zip
+rag-solutions/contextual-chatbot-using-knowledgebase/notebook/
+  knowledge_base_create_ingest_documents.ipynb
+  utility.py
+rag-solutions/sql-query-generator/
+  requirements.txt
+  README.md
+  sql_chat_ui.py
+  northwind.db
+  sql_query_chain.py
+  sqlite_helper.py
+  northwind_ddl.sql
+rag-solutions/sql-query-generator/images/
+  sql_chat_ui.png
+rag-solutions/multimodal-rag-pdf/
+  README.md
+rag-solutions/multimodal-rag-pdf/rag/
+  multimodal-rag-pdf.ipynb
+rag-solutions/multimodal-rag-pdf/rag/diagrams/
+  multimodal-rag-inference.drawio.png
+  multimodal-rag.drawio.png
+rag-solutions/semantic-search/
+  requirements.txt
+  search_lib.py
+  README.md
+  search_app.py
+  bedrock_faqs.csv
+rag-solutions/llamaindex-examples/
+  Basic_RAG_With_LlamaIndex.ipynb
+  Router_Query_Engine.ipynb
+  Multi_Document_Agent.ipynb
+  2_llama_index_bedrock_kb.ipynb
+  SubQuestion_Query_Engine.ipynb
+  1_llama_parse_upload_s3.ipynb
+  ReAct_Agent.ipynb
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/
+  README.md
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/streamlit/
+  chatbot.py
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/images/
+  kb-vectorstore.jpg
+  lambda-layer.jpg
+  kb-syncing.png
+  gr-create.png
+  kb-syncing.jpg
+  kb-body.jpg
+  streamlit-filled.jpg
+  bedrock-left.jpg
+  gr-image.png
+  kb-details.jpg
+  cfn-body.jpg
+  share-holders.jpg
+  architecture_1.jpg
+  share-holders.png
+  cfn-specify.png
+  cfn-specify.jpg
+  architecture_2.jpg
+  kb-datasource.jpg
+  gr-create-new.png
+  gr-add-word.png
+  kb-readysync.jpg
+  streamlit-blank.jpg
+  kb-ready.jpg
+  kb-ready.png
+  streamlit-filled-checked.jpg
+  kb-review.jpg
+  gr-version.png
+  cfn-create.jpg
+  s3-objects.jpg
+  kb-sync.jpg
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/cfn/
+  DeployKnowledgeBase.yaml
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/lambda/
+  bedrock-kb-retrieveAndGenerate.py
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/lambda/layer/
+  knowledgebase_lambdalayer.zip
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/notebook/
+  knowledge_base_create_ingest_documents.ipynb
+  utility.py
+rag-solutions/rag-foundations-workshop/
+  LICENSE
+  requirements.txt
+  README.md
+rag-solutions/rag-foundations-workshop/faiss-diy/
+  index.faiss
+  index.pkl
+rag-solutions/rag-foundations-workshop/data/
+rag-solutions/rag-foundations-workshop/data/letter/
+  2022.txt
+rag-solutions/rag-foundations-workshop/data/book/
+  book.txt
+rag-solutions/rag-foundations-workshop/data/sagemaker/
+  Amazon-com-Inc-2023-Shareholder-Letter.pdf
+  Amazon_SageMaker_FAQs.pdf
+  sm_faq_v2.csv
+  sagemaker_faqs.csv
+rag-solutions/rag-foundations-workshop/notebooks/
+  04_retrieval_based_chat_application.ipynb
+  03_retrieval_based_text_application.ipynb
+  05_agent_based_text_generation.ipynb
+  02_contextual_text_generation.ipynb
+  04_retrieval_based_chat.ipynb
+  01_workshop_setup.ipynb
+  06_build_yourself.ipynb
+  06_DO_NOT_OPEN_build_yourself_answers.ipynb
+rag-solutions/rag-foundations-workshop/notebooks/images/
+  embeddings_lang.png
+  chatbot_bedrock.png
+  terminal.png
+  chatbot_lang.png
+  model_eval.png
+  api.png
+  context-aware-chatbot.png
+rag-solutions/rag-foundations-workshop/faiss-index/
+rag-solutions/rag-foundations-workshop/faiss-index/llama-index/
+  vector_store.json
+  graph_store.json
+  index_store.json
+  docstore.json
+rag-solutions/rag-foundations-workshop/faiss-index/langchain/
+  index.faiss
+  index.pkl
+knowledge-bases/
+  utility.py
+  README.md
+knowledge-bases/01-rag-concepts/
+  4_customized-rag-retreive-api-titan-lite-evaluation.ipynb
+  2a_managed_rag_kb_retrieve_generate_api.ipynb
+  1b_create_ingest_documents_test_kb_multi_ds.ipynb
+  6_customized-rag-retreive-api-langchain-claude-v2-online-evaluation-ragas.ipynb
+  1a_create_ingest_documents_test_kb.ipynb
+  5_customized-rag-retreive-api-langchain-claude-evaluation-ragas.ipynb
+  3_customized-rag-retreive-api-hybrid-search-claude-3-sonnet-langchain.ipynb
+  2b_managed_rag_custom_prompting_and_no_of_results.ipynb
+knowledge-bases/01-rag-concepts/images/
+  rag-eval-flow-guidelines.png
+  LangfuseAPIKEY.png
+  rag-eval-flow-correctness.png
+  rag-eval-online-langfuse.png
+  no-of-results-1.png
+  rag-eval-flow-faithfulness.png
+  no-of-results-2.png
+  rag-eval-flow-relevancy.png
+  data_ingestion.png
+  LangfuseTraceDetailsGeneration.jpg
+  retrieveAPI.png
+  LangfuseTraceDetailsRetreive.jpg
+  LangfuseTraceDetail.jpg
+  retrieveAndGenerate.png
+  custom-prompting-0.png
+  custom-prompting-1.png
+  custom-prompting-2.png
+knowledge-bases/01-rag-concepts/optimizing-accuracy-retrieved-results/
+  hybrid_search_and_multi_query.ipynb
+  optimizing-rag-retrieval-using-metadata_filtering.ipynb
+knowledge-bases/01-rag-concepts/optimizing-accuracy-retrieved-results/images/
+  multi-query.jpg
+  multi-query.png
+  data_ingestion.png
+  hybrid-search-2.png
+  retrieveAPI.png
+  hybrid-overview.png
+  hybrid-search-1.png
+  hybrid-overview.jpg
+  metadata-filter.png
+  retrieveAndGenerate.png
+knowledge-bases/00-zero-setup-chat-with-your-document/
+  00_chat_with_document_kb.ipynb
+knowledge-bases/images/
+  rag-eval-flow-guidelines.png
+  LangfuseAPIKEY.png
+  rag-eval-flow-correctness.png
+  rag-eval-online-langfuse.png
+  rag-eval-flow-faithfulness.png
+  rag-eval-flow-relevancy.png
+  data_ingestion.png
+  LangfuseTraceDetailsGeneration.jpg
+  retrieveAPI.png
+  LangfuseTraceDetailsRetreive.jpg
+  LangfuseTraceDetail.jpg
+  retrieveAndGenerate.png
+knowledge-bases/03-infra/
+knowledge-bases/03-infra/e2e-rag-using-bedrock-kb-cfn/
+  README.md
+  deploy.sh
+knowledge-bases/03-infra/e2e-rag-using-bedrock-kb-cfn/artifacts/
+  provider-event-handler.zip
+  opensearchpy-layer.zip
+  custom-resource-lambda.zip
+knowledge-bases/03-infra/e2e-rag-using-bedrock-kb-cfn/templates/
+  main-template-out.yml
+  oss-infra-template.template
+  main-template-out-tmp.yml
+  kb-infra-template.template
+  kb-role-template.template
+  oss-infra-template-tmp.template
+knowledge-bases/use-case-examples/
+knowledge-bases/use-case-examples/metadata-filter-access-control/
+  README.md
+  utils.py
+  kb-end-to-end-acl.ipynb
+knowledge-bases/use-case-examples/metadata-filter-access-control/imgs/
+  architecture.png
+knowledge-bases/use-case-examples/metadata-filter-access-control/templates/
+  2-knowledgebase-infra.yaml
+  1-base-infra.yaml
+knowledge-bases/videos/
+  LangfuseDashboardrec.mov
+knowledge-bases/02-advanced-concepts/
+  README.md
+knowledge-bases/02-advanced-concepts/02-using-open-source-framework/
+  semantic_chunking_langchain.ipynb
+  requirements.txt
+knowledge-bases/02-advanced-concepts/02-using-open-source-framework/images/
+  semantic-chunking.png
+knowledge-bases/02-advanced-concepts/01-chunking-strategy/
+  0_chunk_size_evaluation_for_KB_RAG.ipynb
+ai-integration/
+  summarize_code.py
+multimodal/
+multimodal/Titan Image Generator/
+multimodal/Titan Image Generator/Instant Customization/
+  Introduction to Amazon Titan Image Generator Instant Customization Feature.ipynb
+multimodal/Titan Image Generator/Instant Customization/Data/
+  sketch_dog.png
+  smila.jpg
+  carton_ladybug.png
+multimodal/Titan/
+multimodal/Titan/embeddings/
+multimodal/Titan/embeddings/v2/
+  Titan-V2-Embeddings.ipynb
+multimodal/Titan/embeddings/v2/images/
+  embeddings_lang.png
+  chatbot_bedrock.png
+  terminal.png
+  chatbot_lang.png
+  vector_embedding.png
+  api.png
+  context-aware-chatbot.png
+  vector_db.jpg
+multimodal/Titan/titan-multimodal-embeddings/
+  README.md
+multimodal/Titan/titan-multimodal-embeddings/amazon-bedrock-multimodal-oss-searchengine-e2e/
+  README.md
+  utils.py
+  titan_mm_embed_search_blog.ipynb
+  CONTRIBUTING.md
+  LICENSE.txt
+multimodal/Titan/titan-multimodal-embeddings/amazon-bedrock-multimodal-oss-searchengine-e2e/images/
+  contextual_search_arch.png
+multimodal/Titan/titan-multimodal-embeddings/images/
+  titan-embeddings-g1-image.png
+multimodal/Titan/titan-multimodal-embeddings/rag/
+  requirements.txt
+  globals.py
+  0_data_prep.ipynb
+  README.md
+  1_multimodal_rag.ipynb
+  download_images.py
+multimodal/Titan/titan-multimodal-embeddings/rag/images/
+  multimodal-rag-Page-1.drawio.png
+multimodal/Claude3/
+  README.md
+  Claude3-Sonnet-Multimodal-Example.ipynb
+  multi-modal-rag-claude3-sonnet-langchain.ipynb
+  best_practices_for_claude3_bedrock.ipynb
+  animal.jpg
+multimodal/Claude3/images/
+  wrinkle.png
+  70.png
+  nine_dogs.jpg
+  labeled_circle.png
+  officer.png
+  100.png
+  circle.png
+  officer_example.png
+  chinos.png
+  140.png
+  table.png
+  receipt2.png
+  receipt1.png
+custom_models/
+custom_models/import_models/
+  fmeval_imported_models.ipynb
+custom_models/import_models/llama-3/
+  customized-text-to-sql-model.ipynb
+  llama3-ngrammedqa-fine-tuning.ipynb
+  llama3-sftt-llama3-fine-tuning.ipynb
+custom_models/import_models/llama-3/images/
+  text-2-sql-import-model-job.png
+  llama3-ft-ImportedModelList.png
+  llama3-ft-ImportedModelPlayground.gif
+  llama3-ft-ImportScreenshot.png
+  text-2-sql-imported-models-menu.png
+  text-2-sql-demo.gif
+  text-2-sql-take-model-arn.png
+  llama3-ft-SageMakerTrainingLog.png
+  text-2-sql-import-model-button.png
+  llama3-ft-ImportedModelDetails.png
+custom_models/import_models/llama-2/
+  Llama2 Fine Tuning-Boolq.ipynb
+custom_models/import_models/llama-2/images/
+  import_jobs_perms.png
+  iam_role_import_jobs.png
+  import_jobs.png
+custom_models/import_models/mistral/
+  sm-mistral-fine-tuning-qna.ipynb
+custom_models/import_models/mistral/images/
+  MistralImportJobDetailsScreenshot.png
+  MistralModelDetailsScreenshot.png
+  Mistral-ft-SageMakerTrainingLog.png
+  Mistral-ft-ImportScreenshot.png
+  MistralModelListScreenshot.png
+security-and-governance/
+  README.md
+generative-ai-solutions/
+  README.md
+generative-ai-solutions/bedrock-lambda-layer/
+  bedrock-1-28-57.zip
+  README.md
+  lambda_function.py.zip
+  lambda_base.py
+  lambda_function.py
+generative-ai-solutions/bedrock-rekognition-sample/
+  README.md
+  .gitignore
+generative-ai-solutions/bedrock-rekognition-sample/cdk/
+  .npmignore
+  ddb-table-results.png
+  cloudformation-s3-bucket.png
+  cloud-formation-stack.png
+  cloudformation-resources.png
+  ddb-restaurant-explore.png
+  cdk.json
+  package-lock.json
+  package.json
+  tsconfig.json
+  architecture.png
+generative-ai-solutions/bedrock-rekognition-sample/cdk/bin/
+  cdk.ts
+generative-ai-solutions/bedrock-rekognition-sample/cdk/lib/
+  multi-modal-stack.ts
+generative-ai-solutions/bedrock-rekognition-sample/cdk/lib/lambda/
+  requirements.txt
+  rek-bedrock.py
+generative-ai-solutions/bedrock-rekognition-sample/images/
+  restaurant-hours-3.jpg
+  restaurant-hours-2.jpg
+  restaurant-hours-1.jpg
+  restaurant-hours-4.jpg
+generative-ai-solutions/metadata-tagger/
+  README.md
+  claude3_metadata_tagger.ipynb
+generative-ai-solutions/java-connection/
+  README.md
+generative-ai-solutions/java-connection/my-app/
+  pom.xml
+  example-payload.txt
+generative-ai-solutions/java-connection/my-app/src/
+generative-ai-solutions/java-connection/my-app/src/main/
+generative-ai-solutions/java-connection/my-app/src/main/java/
+generative-ai-solutions/java-connection/my-app/src/main/java/com/
+generative-ai-solutions/java-connection/my-app/src/main/java/com/example/
+generative-ai-solutions/java-connection/my-app/src/main/java/com/example/app/
+  App.java
+generative-ai-solutions/java-connection/my-app/src/main/java/com/example/app/utils/
+  Utils.java
+generative-ai-solutions/java-connection/my-app/src/main/java/com/example/app/pojo/
+  ClaudeResponse.java
+generative-ai-solutions/bedrock-api-gateway/
+  01_bedrock_api.ipynb
+  README.md
+  02_bedrock_api_langchain.ipynb
+generative-ai-solutions/bedrock-api-gateway/images/
+  architecture.png
+generative-ai-solutions/bedrock-api-gateway/setup/
+  cfn-template.yaml
+generative-ai-solutions/recordings-summary-generator/
+  recordings-summary-generation.yaml
+  README.md
+generative-ai-solutions/recordings-summary-generator/images/
+  architecture.svg
+  stepfunctions_graph.png
+  stepfunctions_graph.svg
+generative-ai-solutions/recordings-summary-generator/sample-recording/
+  sample-team-meeting-recording.mp4
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/
+  requirements.txt
+  0_chapterize_data.ipynb
+  2_summarize_metrics.ipynb
+  1_generate_chapter_titles.ipynb
+  README.md
+  chapterize.py
+  .gitignore
+  0_already_chapterized_data.ipynb
+  bedrock_utils.py
+  config.yml
+  main.py
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/metrics/
+  filtered_titles_for_eval.csv
+  model_distribution_count.csv
+  recommended_model.csv
+  summary_metrics.csv
+  overall_evaluation_report.csv
+  model_eval.csv
+  processed_evaluation_prompts.csv
+  per_request_results.csv
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/source_data/
+  particle_physics_meeting.json
+  particle_physics_meeting.vtt
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/title_completions/
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/title_completions/particle_physics_meeting.vtt/
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/title_completions/particle_physics_meeting.vtt/meta.llama2-13b-chat-v1/
+  chapter_1.json
+  chapter_3.json
+  chapter_2.json
+  chapter_4.json
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/title_completions/particle_physics_meeting.vtt/anthropic.claude-3-sonnet-20240229-v1-0/
+  chapter_1.json
+  chapter_3.json
+  chapter_2.json
+  chapter_4.json
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/title_completions/particle_physics_meeting.vtt/anthropic.claude-3-haiku-20240307-v1-0/
+  chapter_1.json
+  chapter_3.json
+  chapter_2.json
+  chapter_4.json
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/title_completions/particle_physics_meeting.vtt/mistral.mistral-7b-instruct-v0-2/
+  chapter_1.json
+  chapter_3.json
+  chapter_2.json
+  chapter_4.json
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/title_completions/particle_physics_meeting.vtt/amazon.titan-text-express-v1/
+  chapter_1.json
+  chapter_3.json
+  chapter_2.json
+  chapter_4.json
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/processed_data/
+  processed.csv
+  chapterized.csv
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/data/prompts/
+  mistral_template.txt
+  llama_template.txt
+  eval_template.txt
+  titan_template.txt
+  llama3_template.txt
+  anthropic_template.txt
+ops-tooling/
+  bedrock_app_custom_dashboard.py
+  bedrock_cloudwatch_dashboard.py
+  README.md
+responsible-ai/
+  README.md
+responsible-ai/guardrails-for-amazon-bedrock-samples/
+  Guardrails with LangChain.ipynb
+  guardrails-api.ipynb
+  Apply_Guardrail_with_Streaming_and_Long_Context.ipynb
+responsible-ai/guardrails-for-amazon-bedrock-samples/images/
+  agent_guardrails.png
+  chatbedrock_guardrails.png
+responsible-ai/guardrails-for-amazon-bedrock-samples/data/
+  shareholder_letter.txt
+  financial_story.txt
+
+README Summaries:
+root README: Amazon Bedrock Samples This repository contains pre-built examples to help customers get started with the Amazon Bedrock service. Contents - Introduction to Bedrock - Learn the basics of the Bedrock service - Prompt Engineering  - Tips for crafting effective prompts - Bedrock Fine-tuning - Fine-tune Bedrock models for your specific use case - Custom Model Import - Import custom models into Bedrock - Generative AI Solutions - Example use cases for generative AI - Knowledge Bases - Build knowledge...
+
+bedrock-fine-tuning README: Fine Tuning This folder contains examples related to Fine-tuning Bedrock Models Contents Fine-tuning Amazon Titan Image Generator G1 - example code for fine-tuning Amazon Titan Image Generator G1 model Fine-tuning Meta Llama 2 for text summarization - example code for fine-tuning and evaluating a Meta Llama 2 foundation model for text summarization Contributing We welcome community contributions! Please ensure your sample aligns with AWS best practices, and please update the **Contents** section...
+
+bedrock-fine-tuning/amazon-titan-image-generator README: Amazon Titan Image Generator Model Fine-tuning Overview This repository provides resources and notebooks for fine-tuning the Amazon Titan Image Generator Model with Amazon Bedrock. Amazon Titan lmage Generator is a cutting edge text-to-image model that is able to understand prompts describing multiple objects in various contexts and captures these relevant details in the images it generates. It can perform advanced image editing tasks such as smart cropping, in-painting, and background changes. ...
+
+bedrock-fine-tuning/meta-llama README: Fine-Tuning Foundation Models with Amazon Bedrock You can customize Foundation Models(FMs) on Bedrock through fine-tuning. We provide examples on how to set up the resources, fine-tune and evaluate the customized model, and clean up the resources after running the examples. Contents - 00_setup.ipynb - Setup for running customization notebooks both for fine-tuning and continued pre-training using Amazon Bedrock. In this notebook, we will create set of roles and an S3 bucket which will be used for...
+
+function-calling README: Function Calling With function calling, we can provide LLMs with descriptions of tools and functions it can use. An LLM is able to intelligently decide based on user query when and how to use those tools to help answer questions and complete tasks. This repository contains examples and use-cases to get you started with Function Calling on Amazon Bedrock Contents - **Amazon Bedrock Converse API function-calling (tool use) examples** - The Converse or ConverseStream API is a unified structured tex...
+
+agents-for-bedrock README: Agents for Amazon Bedrock Agents for Amazon Bedrock helps you accelerate the development of GenAI applications by orchestrating multistep tasks. Agents uses the reasoning capability of foundation models (FMs) to break down user-requested tasks into  steps. Agents for Amazon Bedrock can perform the following tasks: - Breakdown user requests into multiple smaller steps - Collect additional information from a user through natural conversation - Decide which APIs to call and provide the necessary pa...
+
+agents-for-bedrock/use-case-examples/product-review-agent README: Custom integration with knowledge base The agent integrates with the knowledge base **without an explicit association** to it. Essentially, based on the function invoked in the function definitions, it can choose to query the vector DB directly by filtering or the knowledge base through both filtering and semantic similarity. This is useful when you want to leverage on the managed knowledge base for data maintenance (create,delete,update of documents in vector database), and exert more control o...
+
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation README: Insurance Claim Lifecycle Automation Using Agents and Knowledge Bases for Amazon Bedrock --- Content - Overview - Agents and Knowledge Bases Architecture - Cost - Deployment Guide - Testing and Validation - Clean Up Overview You can now use Agents for Amazon Bedrock and Knowledge Bases for Amazon Bedrock to configure specialized agents that seamlessly run actions based on user input and your organization's data. These managed agents play conductor, orchestrating interactions between foundation m...
+
+agents-for-bedrock/use-case-examples/ai-powered-assistant-for-investment-research README: Generative AI and Multi-Modal Agents in AWS: The Key to Unlocking New Value in Financial Markets This file walks you through how to set up the infrastructure and applications, and run the code to create a multi-modal agent using Amazon Bedrock. The blog post provides a detailed discussion of this solution. Technical Achitecture Diagram <img src="images/architecture-diagram.png" width="680"/> Implementation Steps Prerequisites This solution uses Lambda functions, which are serverless, event-drive...
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent README: <h1 align="center">Text to SQL Bedrock Agent</h1> Authors: **Pedram Jahangiri** @jpedram, **Sawyer Hirt** @sawyehir, **Zeek Granston** @zeekg, **Suyin Wang** @suyinwa Reviewer: **Maira Ladeira Tanke** @mttanke Introduction Harnessing the power of natural language processing, the "Text to SQL Bedrock Agent" facilitates the automatic transformation of natural language questions into executable SQL queries. This tool bridges the gap between complex database structures and intuitive human inquiries,...
+
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent README: Customer relationship management (CRM) Bedrock Agent Authors: Sawyer Hirt @sawyehir, Zeek Granston @zeekg, Eashan Kaushik @eashank Reviewer: Maira Ladeira Tanke @mttanke Introduction The Customer Relationship Management (CRM) Bedrock Agent is a conversational AI solution that utilizes natural language processing to facilitate interactions with customer data and management of customer relationships. This agent bridges the gap between complex customer information systems and user-friendly communic...
+
+agents-for-bedrock/use-case-examples/agentsforbedrock-retailagent README: Build a Foundation Model (FM) powered customer service bot with agents for Amazon Bedrock Introduction From enhancing the conversational experience to agent assistance, there are a plenty of ways that generative AI and foundation models (FMs) can help deliver faster, better support. With the increasing availability and diversity of FMs, it is difficult to experiment and keep up-to-date with the latest model versions. Amazon Bedrock is a fully managed service that offers a choice of high-performi...
+
+agents-for-bedrock/use-case-examples/hr-assistant README: HR Assistant Using Titan Text Premier with Agents and Knowledge Bases for Amazon Bedrock --- Authors: Anupam Dewan @dewanup, Jie Lie @liaji, Han Liu @haliuz Reviewer: Maira Ladeira Tanke @mttanke Content - Overview - Agents and Knowledge Bases Architecture - Deployment Guide - Test Conversation - Clean Up Overview Amazon Titan Text Premier is the latest addition to the Titan family of Large Language Models. It is a high-performing, cost effective and model engineered to deliver superior performa...
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced README: Text to SQL Bedrock Agent CDK Enhanced Authors: - **Pedram Jahangiri** @iut62elec Reviewer: - **Maira Ladeira Tanke** @mttanke Introduction Harnessing the power of natural language processing, the "Text to SQL Bedrock Agent" facilitates the automatic transformation of natural language questions into executable SQL queries. This tool bridges the gap between complex database structures and intuitive human inquiries, enabling users to effortlessly extract insights from data using simple English pro...
+
+agents-for-bedrock/features-examples README: Agents for Amazon Bedrock - Features examples In this folder we provide you example implementations for the main Agents for Amazon Bedrock functionality: 1. Create Agent with Function Definition: Example of how to create an HR assistant agent defining the Action Group function and parameters as JSON object that is associated with the Action Group invocation. It connects with an AWS Lambda function to execute the actions 1. Create Agent with API Schema: Example of how to create an Insurance Claim...
+
+agents-for-bedrock/features-examples/06-prompt-and-session-attributes README: Prompt and Session Attributes In this folder, we provide an example of an HR agent using Agents for Amazon Bedrock with prompt and session attributes. For greater control of session context, you can modify the SessionState object in your agent. The SessionState object contains two types of attributes that you can use to provide conversational context for the agent during user conversations. * sessionAttributes – Attributes that persist over a session between a user and agent. All InvokeAgent req...
+
+agents-for-bedrock/features-examples/07-advanced-prompts-and-custom-parsers README: Advanced Prompts and Custom Lambda Parsers In this folder, we provide an example of an HR agent using Agents for Amazon Bedrock new advanced prompt and custom lambda parser capabilities. Agents in Amazon Bedrock take a sequence of steps to process a user query: Pre-processing, Orchestration, Knowledge base response generation, and Post-processing. For each step in the sequence Prompt templates are the basis for creating prompts to be provided to the FM. Agents for Amazon Bedrock exposes the defa...
+
+agents-for-bedrock/features-examples/02-create-agent-with-api-schema README: Create Agents with API Schema In this folder, we provide an example agent using Agents for Amazon Bedrock integration with API Schema and Lambda functions. When creating Agent’s action groups, you can define actions by providing the function details or passing an API Schema. When providing the API Schema, you can define actions more explicitly and map them to API operations in your system. This option requires your API schema file to have the OpenAPI format. You add the API schema to the action ...
+
+agents-for-bedrock/features-examples/03-create-agent-with-return-of-control README: Create Agents with Return of Control (Function Calling) In this folder, we provide an example of an HR agent using Agents for Amazon Bedrock new capabilities for function definition and return of control for function calling. Return of control for function calling allows developers to define an action schema and get the control back whenever the agent invokes the action. This provides developers more options to implement business logic in addition to the already available Lambda approach. Furthe...
+
+agents-for-bedrock/features-examples/05-create-agent-with-knowledge-base-and-action-group README: Creating Agent with Knowledge Base and an Action Group connection In this folder, we provide an example of creating an agent with Amazon Bedrock and integrating it with a Knowledge Base for Amazon Bedrock and with an Action Group. With this integration, the agent will be able to respond to a user query by taking a sequence of actions, consulting the knowledge base to obtain more information, and/or executing tasks using the lambda function connected with an Action Group. Agent Architecture In th...
+
+agents-for-bedrock/features-examples/04-create-agent-with-single-knowledge-base README: Creating Agent with a Single Knowledge Base In this folder, we provide an example of creating an agent with Amazon Bedrock and integrating it with Knowledge Bases for Amazon Bedrock. With this integration, the agent will be able to respond to a user query by taking a sequence of actions, consulting the knowledge base to obtain more information, and finally responding to the user with an answer. !Agents with Knowledge Bases for Amazon Bedrock In this notebook you will learn how to create an Amazo...
+
+agents-for-bedrock/features-examples/10-create-agent-with-memory README: Create Agents with memory In this folder, we provide an example of travel agent using Agents for Amazon Bedrock new capabilities for memory. When creating you agent, you can enable the memory capabilities using the `memoryConfiguration` parameter. You can then invoke you agent with a `memoryId` to track sessions and summarize them to your memory. In this example we will create a test agent with the following architecture: !Agent architecture The code below shows how to configure the memory capab...
+
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions README: Designing secure generative AI Application workflows with Amazon Verified Permissions and Agents for Bedrock Link AWS Blog: https://aws.amazon.com/blogs/aws/ \ Link to Amazon Verified Permissions: https://aws.amazon.com/verified-permissions/ This is sample code we will demonstrate how to design fine-grained access controls using Verified Permissions for a generative AI application that uses agents for Bedrock to answer questions about insurance claims that exist in a claims review system using t...
+
+agents-for-bedrock/features-examples/01-create-agent-with-function-definition README: Create Agents with Function Definition In this folder, we provide an example of an HR agent using Agents for Amazon Bedrock new capabilities for function definition. When creating Agent’s action groups, you can define actions by providing the function details or passing an API Schema. When providing the function details you can simplify the action group creation process and set up the agent to elicit a set of parameters that you define. You can then pass the parameters on to your application and...
+
+prompt-engineering README: Prompt Engineering This folder contains information to get you started with prompt engineering on Amazon Bedrock. !Prompt Engineering Prompt engineering is the practice of optimizing the quality and performance of your foundation model's response to your request. Prompt engineering may involve: - Word choice - Phrasing - Providing examples (few-shot learning) - Use of line breaks and content separators - Following established formats that align with how the model was trained - Use of stop sequen...
+
+prompt-engineering/session-4/multimodal README: Working with multimodal data using Amazon Bedrock With the `Amazon Titan Multimodal Embeddings G1` model, you can create embeddings for multimodal data, specifically text and image data. These embeddings can then be used for multimodal search and Retrieval Augmented Generation (RAG) use-cases, for example searching images by text only, images only or a combination of text and images. !Amazon Titan Multimodal Embeddings G1 Contents - Multimodal RAG - Multimodal RAG using the Amazon Berkley Object...
+
+prompt-engineering/session-4/multimodal/faiss-multimodal README: Build a contextual text and image search engine for product recommendations using Amazon Bedrock and Amazon OpenSearch Serverless [WIP - 02/07/2024] This repository aims at building a Large Language Model (LLM) powered search engine prototype to retrieve and recommend products based on text or image queries. This is a step-by-step guide on how to create Amazon Bedrock Titan models to encode images and text into embeddings, ingest embeddings into Amazon OpenSearch Service Serverless index, and qu...
+
+introduction-to-bedrock README: Getting Started with Bedrock With the Amazon Bedrock serverless experience, you can quickly get started, easily experiment with FMs, privately customize FMs with your own data, and seamlessly integrate and deploy them into your applications using AWS tools and capabilities. This repository contains examples to get you started with the core Amazon Bedrock APIs for each of the foundational model providers. !Bedrock Models Contents - Getting Started with Bedrock Converse API - Notebook - Example no...
+
+introduction-to-bedrock/create_your_first_bedrock_application README: Create your first Amazon Bedrock generative AI application This repository contains the code for deploying your first application with Amazon Bedrock using AWS CDK For this exercise, we will create and application that processes the text content from emails and extract information from them. For simplicity and in order to ensure compatibility with multiple customer setups, two options are presented: * **process-dynamodb-table-bedrock:** assumes that your emails have been extracted to a dynamoDB ...
+
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock README: Processing Emails with Amazon Bedrock Sample Authors: Aditi Rajnish, Maíra Ladeira Tanke, Raj Pathak This repo contains an AWS CDK solution for automatically processing emails using Amazon Bedrock, Simple Email Service (SES), Amazon Simple Notification Service (SNS), AWS Lambda, and Amazon DynamoDB. To get start and set up your environment: Navigate to the cdk-app Install dependencies The `cdk.json` file tells the CDK Toolkit how to execute your app. This project is set up like a standard Python...
+
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock README: Processing an Amazon DynamoDB table with Amazon Bedrock This repo contains an AWS CDK solution for automatically process an Amazon DynamoDB table using Amazon Bedrock via an AWS Lambda function. The following architecture is deployed with this repository !Architecture Diagram Pre-requisites This repository assumes that Amazon Bedrock has `Antropic Claude-V2` enabled. Check the Model Access documentation for more details. Deploying Solution Follow the next steps to deploy this solution Navigate t...
+
+introduction-to-bedrock/java README: Java Bedrock REST Api Samples This repository contains sample of how you can call `invokeModel` REST API and sign it with AWSSigV4 for Amazon Bedrock using Java programming language. The example uses Meta LLama 2 model but you can substitute it with any currently available model isd found on AWS website. Contents - Run invokeModel API with Java - Call invokeModel Amazon Bedrock REST API and sing it with AWSSigV4 using Java programming language Getting Started To get started with the samples, fol...
+
+model-evals/llm-as-a-judge README: Get inferences and model evaluations using an _LLM as a judge_ This examples demonstrates how to evaluate LLM responses with another LLM acting as a judge. Responses are generated from multiple LLMs and then another LLM is asked to evaluate the responses based on a rubric (conciseness, clarity, correctness) and pick a response that best matches this criteria, additionally we also ask the judge LLM to provide an explanation why a particular model's response was selected and why responses from oth...
+
+rag-solutions README: Retrieval Augmented Generation Solutions This folder contains examples and solutions of Retrieval Augmented Generation (RAG) applications on Amazon Bedrock Contents - Semantic Search - Sample embeddings search application with Amazon Titan Embeddings, LangChain, and Streamlit - SQL Query Generator & Executor - Sample SQL query generator and executor application with Amazon Titan Embeddings, Amazon Bedrock Claude Model, LangChain, and Streamlit - Multimodal RAG -  Multimodal RAG with PDF files us...
+
+rag-solutions/contextual-chatbot-using-knowledgebase README: Build Contextual Chatbots using Amazon Bedrock Knowledge Bases Modern chatbots can serve as digital agents, providing a new avenue for delivering 24/7 customer service and support across many industries. Their popularity stems from the ability to respond to customer inquiries in real time and handle multiple queries simultaneously in different languages. Chatbots also offer valuable data-driven insights into customer behavior while scaling effortlessly as the user base grows; therefore, they pre...
+
+rag-solutions/sql-query-generator README: SQL Query Generator & Executor Example This demonstrates a simple application using public Northwind with Amazon Titan Embeddings, Amazon Bedrock Claude Model, LangChain, and Streamlit for the front-end. The example receives a user’s prompt, generates a SQL query using in-memory vector database and few-shot examples. We then run the query using SQLite database and display query results in the user interface. For simplicity, we use the in-memory Chroma database to store and search for embeddings ...
+
+rag-solutions/multimodal-rag-pdf README: Multimodal RAG for PDF files This is an example for RAG with pdf files and includes the data ingestion pipeline and inference flow. Contents - Multimodal RAG - Multimodal RAG with PDF files using both bedrock titan text embeddings and claude LLM. Contributing We welcome community contributions! Please ensure your sample aligns with AWS best practices, and please update the **Contents** section of this README file with a link to your sample, along with a description.
+
+rag-solutions/semantic-search README: Semantic Search Example This demonstrates a simple embeddings search application with Amazon Titan Embeddings, LangChain, and Streamlit. The example matches a user’s query to the closest entries in an in-memory vector database. We then display those matches directly in the user interface. This can be useful if you want to troubleshoot a RAG application, or directly evaluate an embeddings model. For simplicity, we use the in-memory FAISS database to store and search for embeddings vectors. In a r...
+
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails README: Build Contextual Chatbots using Amazon Bedrock Knowledge Bases Modern chatbots can serve as digital agents, providing a new avenue for delivering 24/7 customer service and support across many industries. Their popularity stems from the ability to respond to customer inquiries in real time and handle multiple queries simultaneously in different languages. Chatbots also offer valuable data-driven insights into customer behavior while scaling effortlessly as the user base grows; therefore, they pre...
+
+rag-solutions/rag-foundations-workshop README: AIM307 2023 - Retrieval Augmented Generation with Amazon Bedrock Welcome to re\:Invent 2023! Large language models (LLMs) are often limited by the data they were trained on and don’t always provide up-to-date responses, or worse, they make things up. To overcome this limitation, you can supplement prompts with up-to-date information using embeddings stored in vector databases, a process known as Retrieval Augmented Generation (RAG). With supplemental information in the prompt providing more cont...
+
+knowledge-bases README: Amazon Bedrock Knowledge Base - Samples for building RAG workflows Contents Contains following folders: - 00-zero-setup-chat-with-your-document - 01-rag-concepts - 02-advanced-concepts 00-zero-setup-chat-with-your-document - 0_chat_with_document_kb.ipynb - Enables you to chat with your document without setting up any vector database. You can either upload the document or simply point to the document in your S3 location. 01-rag-concepts - 1a_create_ingest_documents_test_kb.ipynb - creates necessa...
+
+knowledge-bases/03-infra/e2e-rag-using-bedrock-kb-cfn README: Deploy e2e RAG solution (using Knowledgebases for Amazon Bedrock) via CloudFormation This is a complete setup for automatic deployment of end-to-end RAG workflow using Knowledge Bases for Amazon Bedrock. Following resources will get created and deployed: - IAM role - Open Search Serverless Collection and Index - Set up Data Source (DS) and Knowledge Base (KB) Pre-requisite: - You already have s3 bucket where your documents are stored - The documents must be in one of the following supported form...
+
+knowledge-bases/use-case-examples/metadata-filter-access-control README: Access Controls for Knowledge Bases on Amazon Bedrock This notebook guides users on creating access controls for Knowledge Bases on Amazon Bedrock. Metadata filtering in knowledge bases enables access control for your data. By defining metadata fields based on attributes such as user roles, departments, or data sensitivity levels, you can ensure that the retrieval only fetches and uses information that a particular user or application is authorized to access. This helps maintain data privacy and...
+
+knowledge-bases/02-advanced-concepts README: Advanced Concepts Contents 0_chunk_size_evaluation_for_KB_RAG.ipynb - This notebook provides sample code for chunking size evaluation for building optimum RAG applcation. For each chunk sizes (you want to evaluate), following steps are repeated: - Create execution role for Knowledge Bases for Amazon Bedrock with necessary policies for accessing data from S3 and writing embeddings into vector store (OpenSearchServerless). - Create an empty OpenSearch serverless index. - Download documents (or poi...
+
+multimodal/Titan/titan-multimodal-embeddings README: Working with multimodal data using Amazon Bedrock With the `Amazon Titan Multimodal Embeddings G1` model, you can create embeddings for multimodal data, specifically text and image data. These embeddings can then be used for multimodal search and Retrieval Augmented Generation (RAG) use-cases, for example searching images by text only, images only or a combination of text and images. !Amazon Titan Multimodal Embeddings G1 Contents - Multimodal RAG - Multimodal RAG using the Amazon Berkley Object...
+
+multimodal/Titan/titan-multimodal-embeddings/amazon-bedrock-multimodal-oss-searchengine-e2e README: Build a contextual text and image search engine for product recommendations using Amazon Bedrock and Amazon OpenSearch Serverless [WIP - 02/07/2024] This repository aims at building a Large Language Model (LLM) powered search engine prototype to retrieve and recommend products based on text or image queries. This is a step-by-step guide on how to create Amazon Bedrock Titan models to encode images and text into embeddings, ingest embeddings into Amazon OpenSearch Service Serverless index, and qu...
+
+multimodal/Titan/titan-multimodal-embeddings/rag README: Multimodal RAG example This example demonstrates how to implement a simple multimodal RAG solution using the `Amazon Titan Multimodal Embeddings G1` model for multimodal embeddings and the `Anthropic Claude v2` model for text generation. !Multimodal RAG 1. We download a subset of data from the Amazon Berkley Objects dataset. The data includes Amazon products with metadata and catalog images. The metadata includes multiple tags that provide short text description of the product in the image. The ...
+
+multimodal/Claude3 README: Claude 3 Features and New Messages API The multi-modal capability of Claude 3 allows for the input of not only text but also an image that you can ask questions about. An example of the new mulimodal capability of the Claude 3 model is shown below with the new Messages API structure. In addition, an example of using Claude 3's vision capabilities in a RAG workflow is shown using Langchain. We also have a best practices guide for improving performance with Claude 3 Vision. For Claude 3 Integratio...
+
+security-and-governance README: Security and Governance This folder contains examples related to Bedrock security and governance. Contents This repo is still under construction, come back soon! Contributing We welcome community contributions! Please ensure your sample aligns with AWS best practices, and please update the **Contents** section of this README file with a link to your sample, along with a description.
+
+generative-ai-solutions README: Generative AI use-cases This repo explores various generative AI use-cases and integrations with Amazon Bedrock. Contents - Connecting API Gateway & Lambda to Bedrock - Sample pattern connecting Amazon API Gateway and AWS Lambda with Bedrock - Java Connection - Sample code for creating a connection to Amazon Bedrock through the AWS Java SDK - AWS Genai LLM Chatbot - A modular and comprehensive solution to deploy a multi LLM powered chatbot (Amazon Bedrock) - `VTT file processing and model evalua...
+
+generative-ai-solutions/bedrock-lambda-layer README: Here is a draft README.md file: Using Bedrock with AWS Lambda Overview The new Bedrock AI service from AWS provides powerful generative AI capabilities through API calls. However, the default Boto3 included in AWS Lambda has not yet been updated to support Bedrock. To use Bedrock in Lambda functions today, you need to create a Lambda layer with an updated Boto3 that contains the Bedrock service definitions. This README provides steps and code snippets to create a Boto3 layer and deploy Lambda fu...
+
+generative-ai-solutions/bedrock-rekognition-sample README: AWS Serverless Multi-Modal Image Text Validation Repository hosting sample AWS CDK code for the AWS Serverless Image Text Validation sample code. Use Case There are scenarios when delivery drivers take the picture of restaurant operating hours as a proof to show that its closed. However, given the wide variety of store operating hours signs, it can be challenging to validate the driver's claim, leading to potential fraud. We aim to solve this use case in this sample solution. We demonstrate the ...
+
+generative-ai-solutions/metadata-tagger README: Claude 3 - Metadata Extraction Capability This repo provides code samples for Claude 3 to extract metadata from text. The schema for the metadata is provided as part of the prompt. This example uses synthetic data to demonstrate the metadata extraction capability for Claude 3. The extracted metadata is provided in JSON format so that it is parseable by downstream applications. Bring your own Schema/Documents 1. To use your custom schema, enter the schema in the notebook as given in the example b...
+
+generative-ai-solutions/java-connection README: Connecting to Amazon Bedrock with the AWS Java SDK This directory contains a simple maven project for how to interact with Amazon Bedrock though the Java SDK. Prerequisites * Install Java (17.0.8 used in this example) * Install Maven (3.9.4 used in this example) * Authenticate to an AWS IAM role which has the correct permissions to invoke Amazon Bedrock models (This example uses Claude V2 from anthropic) How to Run Inside the `my-app` directory, run these two maven commands. The first packages y...
+
+generative-ai-solutions/bedrock-api-gateway README: Call the Bedrock APIs from your API Gateway, using a Amazon API Gateway, AWS Lambda layer with Boto3 The Cloudformation template cfn-template.yaml deploys: * a Lambda Layer containing the Python Boto3 SDK updated to support Bedrock * a Lambda function for consuming Bedrock **invoke_model** API * a REST Api for invoking LLMs through Bedrock using `invoke_model` The template defines a CloudFormation custom resource function that dynamically downloads and uses the latest published Bedrock SDK files...
+
+generative-ai-solutions/recordings-summary-generator README: Recordings Summary Generator Summary This solution will automatically transcribe a recording that you upload and then create a summary of the recording and then send it to you. The solution uses Amazon Transcribe for the transcription and Amazon Bedrock for the generative summary creation. Architecture The solution is orchestrated using a Step Functions state machine that is triggered when you upload a recording to the S3 bucket: !Architecture 1. Store recording in asset bucket 2. Trigger state ...
+
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals README: Meeting transcript chapter title generation and comparison across FMs with Amazon Bedrock This example shows how to generate chapter titles for `Video Text to track (VTT)` files using different Foundation Models (FMs) available in Bedrock and then evaluate the quality of the generated titles. The evaluation is done by comparing the titles generated by FMs with human written titles if available using quantitative metrics such as ROUGE#:~:text=The%20metrics%20compare%20an%20automatically,produced%...
+
+ops-tooling README: Operational Tooling This folder contains helpful samples to help with operationalizing your work with Amazon Bedrock Contents - Set up CloudWatch dashboard - Create CloudWatch dashboard using AWS Python SDK - Set up custom CloudWatch dashboard for Bedrock app - Create a custom CloudWatch dashboard using the AWS Python SDK to track relevant metrics of your Bedrock app Contributing We welcome community contributions! Please ensure your sample aligns with AWS best practices, and please update the *...
+
+responsible-ai README: Responsible AI This folder contains examples related to Responsible AI on Bedrock Contents Guardrails for Amazon Bedrock Samples - Examples of Building, Updating, Versioning and Testing your Guardrails Contributing We welcome community contributions! Please ensure your sample aligns with AWS best practices, and please update the **Contents** section of this README file with a link to your sample, along with a description.
+
+
+Script Summaries:
+function-calling/fc_pydantic_class_converse_bedrock.py:
+  Function: bedrock_tool
+  Class: ToolsList
+  Function: converse_with_tools
+  Function: converse
+  Function: decorator
+  Function: get_weather
+
+function-calling/function_calling_text2SQL_converse_bedrock_streamlit.py:
+  Class: ToolsList
+  Function: converse_with_tools
+  Function: converse
+  Function: query_athena
+
+function-calling/fc_migrations_converse_bedrock_streamlit.py:
+  Function: oai_call_to_bedrock_call
+  Function: converse_with_tools
+
+function-calling/function_calling_converse_bedrock_streamlit.py:
+  Class: ToolsList
+  Class: ToolsList2
+  Class: ToolsList3
+  Function: converse_with_tools
+  Function: converse
+  Function: converse_image
+  Function: get_weather
+  Function: get_weather
+  Function: get_weather
+  Function: web_search
+
+agents-for-bedrock/use-case-examples/product-review-agent/agent.py:
+  Class: ProductReviewAgent
+  Function: __init__
+  Function: invoke_agent
+
+agents-for-bedrock/use-case-examples/product-review-agent/app.py:
+  Function: get_named_parameter
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/streamlit/bedrock_streamlit.py:
+  Function: generate_session_id
+  Function: fetch_agents
+  Function: fetch_knowledge_bases
+  Function: fetch_data_sources
+  Function: fetch_agent_aliases
+  Function: fetch_agent_knowledge_bases
+  Function: fetch_knowledge_base_name
+  Function: extract_bucket_name
+  Function: fetch_data_source_s3_configuration
+  Function: reset_session
+  Function: show_csv
+  Function: extract_text_from_docx
+  Function: convert_docx_to_html
+  Function: show_doc
+  Function: show_docx
+  Function: show_excel
+  Function: show_html
+  Function: show_md
+  Function: show_pdf
+  Function: show_text
+  Function: process_uploaded_file
+  Function: bedrock_query_knowledge_base
+  Function: update_knowledge_base
+  Function: check_ingestion_job_status
+  Function: invoke_agent
+  Function: main
+
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/streamlit/sigv4.py:
+  Class: SigV4HttpRequester
+  Function: __init__
+  Function: send_signed_request
+
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/lambda/data-loader/index.py:
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/lambda/action-groups/send_reminder.py:
+  Function: get_named_parameter
+  Function: get_named_property
+  Function: open_claims
+  Function: generate_reminder_id
+  Function: send_reminder
+  Function: notify_pending_documents
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/lambda/action-groups/gather_evidence.py:
+  Function: get_named_parameter
+  Function: get_named_property
+  Function: generate_upload_id
+  Function: send_evidence_url
+  Function: gather_evidence
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/insurance-claim-lifecycle-automation/agent/lambda/action-groups/create_claim.py:
+  Function: claim_generator
+  Function: collect_documents
+  Function: create_claim
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent/lambda_function.py:
+  Function: get_schema
+  Function: execute_athena_query
+  Function: extract_result_data
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent/dependencies/clean.py:
+  Function: delete_crawler
+  Function: delete_tables
+  Function: delete_database
+  Function: delete_policy_by_name
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent/dependencies/build_infrastructure.py:
+  Function: unzip_data
+  Function: upload_data
+
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/util/bedrock.py:
+  Class: BedrockAgent
+  Function: __init__
+  Function: new_session
+  Function: invoke_agent
+
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/src/bedrock-agent/basic/crm-bot-lambda.py:
+  Function: get_customer_interactions
+  Function: get_customer
+  Function: get_named_parameter
+  Function: get_named_property
+  Function: listRecentInteractions
+  Function: companyOverview
+  Function: getPreferences
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/src/bedrock-agent/jira/crm-bot-lambda.py:
+  Function: get_customer_interactions
+  Function: get_customer
+  Function: get_named_parameter
+  Function: get_named_property
+  Function: listRecentInteractions
+  Function: companyOverview
+  Function: getPreferences
+  Function: getOpenJiraIssues
+  Function: updateJiraIssue
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/customer-relationship-management-agent/src/data/upload_data.py:
+  Function: upload_data
+
+agents-for-bedrock/use-case-examples/agentsforbedrock-retailagent/csbot_agent.py:
+  Function: load_data
+  Function: return_customer_info
+  Function: return_shoe_inventory
+  Function: place_shoe_order
+  Function: lambda_handler
+
+agents-for-bedrock/use-case-examples/hr-assistant/streamlit/agent_streamlit.py:
+  Function: session_generator
+  Function: bedrock_agent
+  Function: get_file_from_s3
+  Function: render_s3_image
+  Function: parse_trace
+  Function: main
+
+agents-for-bedrock/use-case-examples/hr-assistant/agent/lambda/index.py:
+  Function: call_sql_database
+  Function: send_email_endpoint
+  Function: generate_image_endpoint
+  Function: send_slack_message_endpoint
+  Function: schedule_meeting_endpoint
+  Function: get_availability_endpoint
+  Function: handler
+
+agents-for-bedrock/use-case-examples/hr-assistant/agent/lambda/calendar_integration.py:
+  Function: schedule_standard_meeting
+  Function: find_meeting_timeslot
+
+agents-for-bedrock/use-case-examples/hr-assistant/agent/lambda/athena_sql_query.py:
+  Function: get_data_from_database
+  Function: execute_athena_query
+  Function: check_query_status
+  Function: get_query_results
+
+agents-for-bedrock/use-case-examples/hr-assistant/agent/lambda/generate_image.py:
+  Function: generate_image
+
+agents-for-bedrock/use-case-examples/hr-assistant/agent/lambda/email_integration.py:
+  Function: send_email
+
+agents-for-bedrock/use-case-examples/hr-assistant/agent/lambda/slack_integration.py:
+  Function: send_slack_message
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/claude_3.py:
+  Function: invoke_claude_3_with_text
+  Class: Claude3Wrapper
+  Function: __init__
+  Function: invoke_claude_3_with_text
+  Function: invoke_claude_3_multimodal
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/agent_instruction_generator.py:
+  Function: analyze_csv_files
+  Function: generate_instruction
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/Prep_Data.py:
+  Function: prep_data
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/app.py:
+  Class: MyStack
+  Function: __init__
+
+agents-for-bedrock/use-case-examples/text-2-sql-agent-cdk-enhanced/lambda/agent/index.py:
+  Function: get_schema
+  Function: correct_query
+  Function: execute_athena_query
+  Function: extract_result_data
+  Function: compress_data
+  Function: save_to_s3
+  Function: lambda_handler
+
+agents-for-bedrock/features-examples/02-create-agent-with-api-schema/lambda_function.py:
+  Function: get_named_parameter
+  Function: get_named_property
+  Function: claim_detail
+  Function: open_claims
+  Function: outstanding_paperwork
+  Function: send_reminder
+  Function: lambda_handler
+
+agents-for-bedrock/features-examples/05-create-agent-with-knowledge-base-and-action-group/knowledge_base.py:
+  Function: interactive_sleep
+  Class: BedrockKnowledgeBase
+  Function: __init__
+  Function: create_s3_bucket
+  Function: create_bedrock_kb_execution_role
+  Function: create_oss_policy_attach_bedrock_execution_role
+  Function: create_policies_in_oss
+  Function: create_oss
+  Function: create_vector_index
+  Function: create_knowledge_base
+  Function: start_ingestion_job
+  Function: get_knowledge_base_id
+  Function: get_bucket_name
+  Function: delete_kb
+  Function: delete_iam_roles_and_policies
+  Function: delete_s3
+
+agents-for-bedrock/features-examples/05-create-agent-with-knowledge-base-and-action-group/agent.py:
+  Function: create_dynamodb
+  Function: create_lambda
+  Function: create_lambda_role
+  Function: create_agent_role_and_policies
+  Function: delete_agent_roles_and_policies
+  Function: clean_up_resources
+
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/003_bedrock-agent/agent/agent.py:
+  Function: get_named_parameter
+  Function: list_claims
+  Function: get_claim
+  Function: update_claim
+  Function: lambda_handler
+  Function: verifyAccess
+  Function: verifyJWT_getUserInfo
+  Function: getActionID
+  Function: handle_is_authorized
+  Function: construct_authz_request_from_token
+
+agents-for-bedrock/features-examples/09-fine-grained-access-permissions/004_apigateway/invoke-lambda/invoke_lambda.py:
+  Function: lambda_handler
+
+prompt-engineering/session-4/multimodal/faiss-multimodal/utils.py:
+  Function: get_titan_multimodal_embedding
+  Function: plot_similarity_heatmap
+  Function: get_image_from_item_id
+  Function: get_image_from_item_id_s3
+  Function: display_images
+  Function: find_similar_items_from_query
+  Function: find_similar_items_from_image
+
+introduction-to-bedrock/model_choice_converse_bedrock_streamlit.py:
+  Function: invoke_bedrock_model
+  Class: ModelThread
+  Function: invokeModelsInParallel
+  Function: __init__
+  Function: run
+
+introduction-to-bedrock/getting_started_converse_bedrock_streamlit.py:
+  Function: invoke_bedrock_model
+
+introduction-to-bedrock/model-choice-demo-converse-api.py:
+  Function: invoke_bedrock_model
+  Class: ModelThread
+  Function: invokeModelsInParallel
+  Function: __init__
+  Function: run
+
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock/cdk-app/lambdas/process_emails_with_bedrock/lambda.py:
+  Function: get_decoded_content_text
+  Function: parse_float
+  Function: process_emails_with_bedrock
+  Function: lambda_handler
+
+introduction-to-bedrock/create_your_first_bedrock_application/process-emails-bedrock/cdk-app/cdk_app/cdk_app_stack.py:
+  Class: ProcessEmailBedrockStack
+  Function: __init__
+
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/process_dynamodb_table_bedrock/process_dynamodb_table_bedrock_stack.py:
+  Class: ProcessDynamoDBTableBedrockStack
+  Function: __init__
+
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/process_dynamodb_table_bedrock/populate_dynamodb_table/lambda_function.py:
+  Function: save_data_to_dynamodb
+  Function: lambda_handler
+
+introduction-to-bedrock/create_your_first_bedrock_application/process-dynamodb-table-bedrock/process_dynamodb_table_bedrock/process_dynamodb_table_bedrock_lambda/lambda_function.py:
+  Function: create_emails_tags
+  Function: save_extracted_info
+  Function: lambda_handler
+
+model-evals/llm-as-a-judge/main.py:
+  Function: read_config
+  Function: output_handler
+  Function: run_notebooks
+  Function: main
+
+rag-solutions/contextual-chatbot-using-knowledgebase/streamlit/chatbot.py:
+  Function: generate_presigned_url
+
+rag-solutions/contextual-chatbot-using-knowledgebase/lambda/bedrock-kb-retrieveAndGenerate.py:
+  Function: retrieveAndGenerate
+  Function: lambda_handler
+
+rag-solutions/contextual-chatbot-using-knowledgebase/notebook/utility.py:
+  Function: create_bedrock_execution_role
+  Function: create_oss_policy_attach_bedrock_execution_role
+  Function: create_policies_in_oss
+  Function: delete_iam_role_and_policies
+
+rag-solutions/sql-query-generator/sql_chat_ui.py:
+  Function: ask_question
+  Function: is_query_present
+  Function: extract_query
+  Function: run_query
+
+rag-solutions/sql-query-generator/sql_query_chain.py:
+  Function: sql_chain
+
+rag-solutions/sql-query-generator/sqlite_helper.py:
+  Function: run_query
+
+rag-solutions/semantic-search/search_lib.py:
+  Function: get_index
+  Function: get_similarity_search_results
+
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/lambda/bedrock-kb-retrieveAndGenerate.py:
+  Function: retrieveAndGenerate
+  Function: lambda_handler
+
+rag-solutions/contextual-chatbot-using-knowledgebase-guardrails/notebook/utility.py:
+  Function: create_bedrock_execution_role
+  Function: create_oss_policy_attach_bedrock_execution_role
+  Function: create_policies_in_oss
+  Function: delete_iam_role_and_policies
+
+knowledge-bases/utility.py:
+  Function: create_bedrock_execution_role
+  Function: create_oss_policy_attach_bedrock_execution_role
+  Function: create_policies_in_oss
+  Function: delete_iam_role_and_policies
+  Function: interactive_sleep
+  Function: create_bedrock_execution_role_multi_ds
+
+knowledge-bases/use-case-examples/metadata-filter-access-control/utils.py:
+  Function: create_base_infrastructure
+  Function: create_kb_infrastructure
+  Function: updateDataAccessPolicy
+  Function: createAOSSIndex
+  Function: replace_vars
+
+ai-integration/summarize_code.py:
+  Function: summarize_script
+  Function: summarize_readme
+  Function: process_repository
+
+multimodal/Titan/titan-multimodal-embeddings/amazon-bedrock-multimodal-oss-searchengine-e2e/utils.py:
+  Function: get_titan_multimodal_embedding
+  Function: plot_similarity_heatmap
+  Function: get_image_from_item_id
+  Function: get_image_from_item_id_s3
+  Function: display_images
+  Function: find_similar_items_from_query
+  Function: find_similar_items_from_image
+
+multimodal/Titan/titan-multimodal-embeddings/rag/download_images.py:
+  Function: download_image_file
+  Function: download_images
+
+generative-ai-solutions/bedrock-lambda-layer/lambda_base.py:
+  Function: create_layer
+  Function: create_functions
+  Function: test_functions
+
+generative-ai-solutions/bedrock-lambda-layer/lambda_function.py:
+  Function: lambda_handler
+
+generative-ai-solutions/bedrock-rekognition-sample/cdk/lib/lambda/rek-bedrock.py:
+  Function: get_bedrock_client
+  Function: create_bedrock_llm
+  Function: detect_text
+  Function: detect_restaurant_closure
+  Function: lambda_handler
+
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/chapterize.py:
+  Function: chapterize
+
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/bedrock_utils.py:
+  Function: get_bedrock_client
+
+generative-ai-solutions/bedrock-vtt-file-processing-and-model-evals/main.py:
+  Function: read_config
+  Function: output_handler
+  Function: run_notebooks
+  Function: main
+
+ops-tooling/bedrock_app_custom_dashboard.py:
+  Function: knowledge_base_id_to_oss_collection
+  Function: knowledge_base_name_to_id
+  Function: generate_dashboard_json
+  Function: create_dashboard
+
